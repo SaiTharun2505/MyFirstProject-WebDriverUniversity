@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MyFirstProject">
+              <span class="suite-name border-passed">MyFirstProject</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MyFirstProject">
+                    <span>E:\PROFESSIONAL\eclipse workspace\MyFirstProject\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MyFirstProject">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MyFirstProject">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MyFirstProject">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MyFirstProject">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MyFirstProject">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MyFirstProject">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MyFirstProject" class="hide-methods passed suite-MyFirstProject"> (hide)</a> <!-- hide-methods passed suite-MyFirstProject -->
+                      <a href="#" panel-name="suite-MyFirstProject" class="show-methods passed suite-MyFirstProject"> (show)</a> <!-- show-methods passed suite-MyFirstProject -->
+                    </span>
+                    <div class="method-list-content passed suite-MyFirstProject">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Login_Page_Test" hash-for-method="TestCase_001">TestCase_001</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Login_Page_Test" hash-for-method="TestCase_002">TestCase_002</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Login_Page_Test" hash-for-method="TestCase_003">TestCase_003</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Login_Page_Test" hash-for-method="TestCase_004">TestCase_004</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Login_Page_Test" hash-for-method="TestCase_005">TestCase_005</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Buttons_Page_Test" hash-for-method="TestCase_006">TestCase_006</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Buttons_Page_Test" hash-for-method="TestCase_007">TestCase_007</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Buttons_Page_Test" hash-for-method="TestCase_008">TestCase_008</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.Buttons_Page_Test" hash-for-method="TestCase_009">TestCase_009</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_010">Test_Case_010</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_011">Test_Case_011</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_012">Test_Case_012</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_013">Test_Case_013</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_014">Test_Case_014</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_015">Test_Case_015</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_016">Test_Case_016</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_017">Test_Case_017</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.To_do_List_Test" hash-for-method="Test_Case_018">Test_Case_018</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_019">Test_Case_019</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_020">Test_Case_020</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_021">Test_Case_021</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_022">Test_Case_022</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_023">Test_Case_023</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_024">Test_Case_024</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_025">Test_Case_025</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_026">Test_Case_026</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyFirstProject" title="com.webdriveruniversity.testcases.DCR_Page_Test" hash-for-method="Test_Case_027">Test_Case_027</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MyFirstProject -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MyFirstProject" class="panel MyFirstProject">
+          <div class="suite-MyFirstProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webdriveruniversity.testcases.DCR_Page_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_019">
+                  </a> <!-- Test_Case_019 -->
+                  <span class="method-name">Test_Case_019</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_020">
+                  </a> <!-- Test_Case_020 -->
+                  <span class="method-name">Test_Case_020</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_021">
+                  </a> <!-- Test_Case_021 -->
+                  <span class="method-name">Test_Case_021</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_022">
+                  </a> <!-- Test_Case_022 -->
+                  <span class="method-name">Test_Case_022</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_023">
+                  </a> <!-- Test_Case_023 -->
+                  <span class="method-name">Test_Case_023</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_024">
+                  </a> <!-- Test_Case_024 -->
+                  <span class="method-name">Test_Case_024</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_025">
+                  </a> <!-- Test_Case_025 -->
+                  <span class="method-name">Test_Case_025</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_026">
+                  </a> <!-- Test_Case_026 -->
+                  <span class="method-name">Test_Case_026</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_027">
+                  </a> <!-- Test_Case_027 -->
+                  <span class="method-name">Test_Case_027</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyFirstProject-class-passed -->
+          <div class="suite-MyFirstProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webdriveruniversity.testcases.To_do_List_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_010">
+                  </a> <!-- Test_Case_010 -->
+                  <span class="method-name">Test_Case_010</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_011">
+                  </a> <!-- Test_Case_011 -->
+                  <span class="method-name">Test_Case_011</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_012">
+                  </a> <!-- Test_Case_012 -->
+                  <span class="method-name">Test_Case_012</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_013">
+                  </a> <!-- Test_Case_013 -->
+                  <span class="method-name">Test_Case_013</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_014">
+                  </a> <!-- Test_Case_014 -->
+                  <span class="method-name">Test_Case_014</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_015">
+                  </a> <!-- Test_Case_015 -->
+                  <span class="method-name">Test_Case_015</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_016">
+                  </a> <!-- Test_Case_016 -->
+                  <span class="method-name">Test_Case_016</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_017">
+                  </a> <!-- Test_Case_017 -->
+                  <span class="method-name">Test_Case_017</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test_Case_018">
+                  </a> <!-- Test_Case_018 -->
+                  <span class="method-name">Test_Case_018</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyFirstProject-class-passed -->
+          <div class="suite-MyFirstProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webdriveruniversity.testcases.Login_Page_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_001">
+                  </a> <!-- TestCase_001 -->
+                  <span class="method-name">TestCase_001</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_002">
+                  </a> <!-- TestCase_002 -->
+                  <span class="method-name">TestCase_002</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_003">
+                  </a> <!-- TestCase_003 -->
+                  <span class="method-name">TestCase_003</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_004">
+                  </a> <!-- TestCase_004 -->
+                  <span class="method-name">TestCase_004</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_005">
+                  </a> <!-- TestCase_005 -->
+                  <span class="method-name">TestCase_005</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyFirstProject-class-passed -->
+          <div class="suite-MyFirstProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webdriveruniversity.testcases.Buttons_Page_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_006">
+                  </a> <!-- TestCase_006 -->
+                  <span class="method-name">TestCase_006</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_007">
+                  </a> <!-- TestCase_007 -->
+                  <span class="method-name">TestCase_007</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_008">
+                  </a> <!-- TestCase_008 -->
+                  <span class="method-name">TestCase_008</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCase_009">
+                  </a> <!-- TestCase_009 -->
+                  <span class="method-name">TestCase_009</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyFirstProject-class-passed -->
+        </div> <!-- panel MyFirstProject -->
+        <div panel-name="test-xml-MyFirstProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\PROFESSIONAL\eclipse workspace\MyFirstProject\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;MyFirstProject&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;MyFirstProject&quot;&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webdriveruniversity.testcases.Login_Page_Test&quot;/&gt;
+      &lt;class name=&quot;com.webdriveruniversity.testcases.Buttons_Page_Test&quot;/&gt;
+      &lt;class name=&quot;com.webdriveruniversity.testcases.To_do_List_Test&quot;/&gt;
+      &lt;class name=&quot;com.webdriveruniversity.testcases.DCR_Page_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyFirstProject --&gt;
+&lt;/suite&gt; &lt;!-- MyFirstProject --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MyFirstProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MyFirstProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MyFirstProject (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MyFirstProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MyFirstProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MyFirstProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MyFirstProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MyFirstProject');
+function tableData_MyFirstProject() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test_Case_020')
+data.setCell(0, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(0, 3, 12649);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test_Case_022')
+data.setCell(1, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(1, 3, 12109);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test_Case_021')
+data.setCell(2, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(2, 3, 12060);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test_Case_027')
+data.setCell(3, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(3, 3, 11159);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test_Case_017')
+data.setCell(4, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(4, 3, 8343);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestCase_009')
+data.setCell(5, 2, 'com.webdriveruniversity.testcases.Buttons_Page_Test')
+data.setCell(5, 3, 4462);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test_Case_019')
+data.setCell(6, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(6, 3, 4421);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test_Case_018')
+data.setCell(7, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(7, 3, 2640);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestCase_008')
+data.setCell(8, 2, 'com.webdriveruniversity.testcases.Buttons_Page_Test')
+data.setCell(8, 3, 2277);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestCase_007')
+data.setCell(9, 2, 'com.webdriveruniversity.testcases.Buttons_Page_Test')
+data.setCell(9, 3, 2276);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test_Case_012')
+data.setCell(10, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(10, 3, 2230);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test_Case_014')
+data.setCell(11, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(11, 3, 2206);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Test_Case_015')
+data.setCell(12, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(12, 3, 2203);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Test_Case_023')
+data.setCell(13, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(13, 3, 2191);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Test_Case_026')
+data.setCell(14, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(14, 3, 2176);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Test_Case_013')
+data.setCell(15, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(15, 3, 2170);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Test_Case_011')
+data.setCell(16, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(16, 3, 2169);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Test_Case_016')
+data.setCell(17, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(17, 3, 2165);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Test_Case_025')
+data.setCell(18, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(18, 3, 2164);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Test_Case_024')
+data.setCell(19, 2, 'com.webdriveruniversity.testcases.DCR_Page_Test')
+data.setCell(19, 3, 2160);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestCase_001')
+data.setCell(20, 2, 'com.webdriveruniversity.testcases.Login_Page_Test')
+data.setCell(20, 3, 1782);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestCase_006')
+data.setCell(21, 2, 'com.webdriveruniversity.testcases.Buttons_Page_Test')
+data.setCell(21, 3, 1095);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestCase_002')
+data.setCell(22, 2, 'com.webdriveruniversity.testcases.Login_Page_Test')
+data.setCell(22, 3, 1093);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Test_Case_010')
+data.setCell(23, 2, 'com.webdriveruniversity.testcases.To_do_List_Test')
+data.setCell(23, 3, 925);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestCase_004')
+data.setCell(24, 2, 'com.webdriveruniversity.testcases.Login_Page_Test')
+data.setCell(24, 3, 489);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestCase_003')
+data.setCell(25, 2, 'com.webdriveruniversity.testcases.Login_Page_Test')
+data.setCell(25, 3, 446);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestCase_005')
+data.setCell(26, 2, 'com.webdriveruniversity.testcases.Login_Page_Test')
+data.setCell(26, 3, 438);
+window.suiteTableData['MyFirstProject']= { tableData: data, tableDiv: 'times-div-MyFirstProject'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-MyFirstProject">
+              </div> <!-- times-div-MyFirstProject -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MyFirstProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MyFirstProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_004</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 4 : Login unsuccessful using invalid credentials : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_022</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 022 : DropDown three is working according to user expectations : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_021</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 021 : DropDown two is working according to user expectations : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_023</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 023 : User able to select first check Box : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_011</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 011 : On Launching the page Add new to do field is Displayed : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_003</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 3 : Login unsuccessful using invalid credentials : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_013</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 013 : On Clicking the plus button Add new to do field is Displayed if it is in Hidden state earlier : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_017</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 017 : User Able to Delete to do list one by one : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_001</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test case 1 : On Clicking Login Portal link redirecting to Login Page : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_014</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 014 : On Clicking the Go To Portion class button, its status changed to completed : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_005</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 5 : Login unsuccessful using invalid credentials : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_015</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 015 : On Clicking the Buy New Robes button, its status changed to completed : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_024</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 024 : User able to select second check Box : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_008</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 8 : User Able to click the Javascript click : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_018</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 018 : User Able to add to do actions in To do list : Go to Gym</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_006</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 6 : On clicking buttons links redirecting to buttons Page : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_020</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 020 : DropDown one is working according to user expectations : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_007</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 7 : User Able to click the Webelement click : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_012</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 012 : On Clicking the plus button Add new to do field is Hidden if it is displayed earlier: true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_016</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 016 : On Clicking the practice magic button, its status changed to completed : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_027</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 027 : Radio Button 1 is Working as Expected : true</span>
+                <span class="reporter-method-output">Test Case 027 : Radio Button 2 is Working as Expected : true</span>
+                <span class="reporter-method-output">Test Case 027 : Radio Button 3 is Working as Expected : true</span>
+                <span class="reporter-method-output">Test Case 027 : Radio Button 4 is Working as Expected : true</span>
+                <span class="reporter-method-output">Test Case 027 : Radio Button 5 is Working as Expected : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_026</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 026 : User able to select second check Box : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_010</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 010 : On Clicking the To do list link redireccting to to do list page : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_025</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 025 : User able to unselect third check Box : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_009</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 9 : User Able to click the Action Move click : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestCase_002</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 2 : Login Successful using valid credentials : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Test_Case_019</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Case 019 : On clicking DCR page link redirecting to DCR Page : true</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MyFirstProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MyFirstProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webdriveruniversity.testcases.Login_Page_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browser_Launch(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase_001</span>
+                <span class="method-start">8899 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_002</span>
+                <span class="method-start">10687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_003</span>
+                <span class="method-start">11781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_004</span>
+                <span class="method-start">12229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_005</span>
+                <span class="method-start">12719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Browser_Close</span>
+                <span class="method-start">13157 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webdriveruniversity.testcases.Buttons_Page_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browser_Launch(Chrome)</span>
+                <span class="method-start">14349 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TestCase_006</span>
+                <span class="method-start">20529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_007</span>
+                <span class="method-start">21624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_008</span>
+                <span class="method-start">23901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestCase_009</span>
+                <span class="method-start">26179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Browser_Close</span>
+                <span class="method-start">30641 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webdriveruniversity.testcases.To_do_List_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browser_Launch(Chrome)</span>
+                <span class="method-start">31769 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_010</span>
+                <span class="method-start">36745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_011</span>
+                <span class="method-start">37670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_012</span>
+                <span class="method-start">39839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_013</span>
+                <span class="method-start">42069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_014</span>
+                <span class="method-start">44239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_015</span>
+                <span class="method-start">46446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_016</span>
+                <span class="method-start">48649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_017</span>
+                <span class="method-start">50814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_018</span>
+                <span class="method-start">59157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Browser_Close</span>
+                <span class="method-start">61797 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webdriveruniversity.testcases.DCR_Page_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Browser_Launch(Chrome)</span>
+                <span class="method-start">62967 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_019</span>
+                <span class="method-start">67467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_020</span>
+                <span class="method-start">71888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_021</span>
+                <span class="method-start">84537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_022</span>
+                <span class="method-start">96597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_023</span>
+                <span class="method-start">108706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_024</span>
+                <span class="method-start">110897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_025</span>
+                <span class="method-start">113057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_026</span>
+                <span class="method-start">115221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test_Case_027</span>
+                <span class="method-start">117397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Browser_Close</span>
+                <span class="method-start">128556 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
