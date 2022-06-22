@@ -26,7 +26,6 @@ public class DCR_Page_Test extends Base_Page_Test
 	@Test
 	public void Test_Case_020() throws Exception
 	{
-		
 		DCR_Page page_object=new DCR_Page(driver);
 		Assert.assertTrue(page_object.Expected_DMT.equals(page_object.Actual_DMT()));
 		Assert.assertTrue(page_object.select_DropDown_1().getFirstSelectedOption().getText().equals(page_object.Default_Option_DD1));

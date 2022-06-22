@@ -16,8 +16,8 @@ import org.testng.annotations.Parameters;
 
 public class Base_Page_Test 
 {
-	static WebDriver driver;
-	static WebDriverWait wait;
+	public static WebDriver driver;
+	public static WebDriverWait wait;
 
 	@Parameters("Browser")
 	@BeforeClass

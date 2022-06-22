@@ -1,13 +1,20 @@
 package com.webdriveruniversity.testcases;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 public class Confirmation_Test {
 
@@ -25,19 +32,25 @@ public class Confirmation_Test {
 		WebElement Element=driver.findElement(By.xpath("//div[contains(@id,'myDiv')]"));
 		
 		wait.until(ExpectedConditions.visibilityOf(Element));
-		
-		/*Actions actions=new Actions(driver);
-		actions.click(Element).build().perform();
-		*/
-		/*JavascriptExecutor JS=((JavascriptExecutor)driver);
-		
-		JS.executeScript("arguments[0].click();",Element);*/
 		Element.click();
-		Thread.sleep(3000);
 		
+		Date date=new Date();
+		SimpleDateFormat sdf=new SimpleDateFormat("hh-mm dd-MM-yyyy");
+		String Time=sdf.format(date);
+		
+		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		
+		try
+		{
+			FileHandler.copy(src, new File("E:\\PROFESSIONAL\\eclipse workspace\\MyFirstProject\\Screenshots\\"+Time+".png"));
+			
+		} catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
 		System.out.println("Test_Pass");
 		driver.close();
-
+		
 	}
 
 }

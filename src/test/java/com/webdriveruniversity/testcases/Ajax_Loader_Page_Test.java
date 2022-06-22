@@ -25,12 +25,13 @@ public class Ajax_Loader_Page_Test extends Base_Page_Test
 	}
 	
 	@Test
-	public void Test_Case_029()
+	public void Test_Case_029() throws InterruptedException
 	{
 		Ajax_Loader_Page page_object=new Ajax_Loader_Page(driver);
 		WebDriverWait wait=new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.visibilityOf(page_object.Click_Button));
 		page_object.Click_Click_Button();
+		Thread.sleep(3000);
 		Assert.assertEquals(page_object.Get_Modal_dialog_Text() , "Well Done For Waiting....!!!");
 		Reporter.log("Test Case 029 : On Clicking Click button Modal Dialog is Displayed with expected text", true);
 		page_object.Close_Modal_Dialog();

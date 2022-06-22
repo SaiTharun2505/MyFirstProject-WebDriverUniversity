@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="MyFirstProject">
+	<listeners>
+		<listener class-name="com.webdriveruniversity.utilities.Test_Results"/>
+	</listeners>
   <test name="MyFirstProject">
       <parameter name="Browser" value="Chrome"/>
       <classes>
-    	<!-- <class name="com.webdriveruniversity.testcases.Login_Page_Test"/>
+    	<class name="com.webdriveruniversity.testcases.Login_Page_Test"/>
     	  <class name="com.webdriveruniversity.testcases.Buttons_Page_Test"/> 
      	 <class name="com.webdriveruniversity.testcases.To_do_List_Test"/> 
-     	 <class name="com.webdriveruniversity.testcases.DCR_Page_Test"/> -->
+     	 <class name="com.webdriveruniversity.testcases.DCR_Page_Test"/>
      	 <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test"/>
-    <!--  	 <class name="com.webdriveruniversity.testcases.Actions_Page_Test"/> -->
+     	 <class name="com.webdriveruniversity.testcases.Actions_Page_Test"/>
       </classes>
   </test> <!-- Test --> 
 </suite> <!-- Suite -->
