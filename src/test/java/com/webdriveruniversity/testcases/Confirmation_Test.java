@@ -3,10 +3,11 @@ package com.webdriveruniversity.testcases;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Confirmation_Test {
 
@@ -14,17 +15,27 @@ public class Confirmation_Test {
 	{
 		System.setProperty("webdriver.chrome.driver", "E:\\PROFESSIONAL\\selenium-jars&drivers\\Drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://webdriveruniversity.com/");
+		driver.get("https://webdriveruniversity.com/Ajax-Loader/index.html");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
-		WebElement Element=driver.findElement(By.xpath("//h1[contains(.,'TO DO LIST')]"));
+		//Thread.sleep(10000);
+		WebDriverWait wait =new WebDriverWait(driver, 30);
 		
-		JavascriptExecutor JS=(JavascriptExecutor)driver;
-		JS.executeScript("arguments[0].scrollIntoView();", Element);
+		WebElement Element=driver.findElement(By.xpath("//div[contains(@id,'myDiv')]"));
 		
-		driver.findElement(By.xpath("//h4[contains(.,'Task1 [ ] - Task2 [ ] - Task3 [ ] - Task4 [ ] - Task5 [ ]')]")).click();
+		wait.until(ExpectedConditions.visibilityOf(Element));
 		
+		/*Actions actions=new Actions(driver);
+		actions.click(Element).build().perform();
+		*/
+		/*JavascriptExecutor JS=((JavascriptExecutor)driver);
+		
+		JS.executeScript("arguments[0].click();",Element);*/
+		Element.click();
+		Thread.sleep(3000);
+		
+		System.out.println("Test_Pass");
 		driver.close();
 
 	}

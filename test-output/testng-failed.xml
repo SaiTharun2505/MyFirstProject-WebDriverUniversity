@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MyFirstProject]">
+  <test thread-count="5" name="MyFirstProject(failed)">
+    <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="com.webdriveruniversity.testcases.DCR_Page_Test">
+      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
         <methods>
           <include name="Browser_Launch"/>
-          <include name="Test_Case_020"/>
+          <include name="Test_Case_029"/>
           <include name="Browser_Close"/>
-          <include name="Test_Case_019"/>
         </methods>
-      </class> <!-- com.webdriveruniversity.testcases.DCR_Page_Test -->
+      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- MyFirstProject(failed) -->
+</suite> <!-- Failed suite [MyFirstProject] -->

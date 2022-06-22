@@ -4,13 +4,13 @@
   <test thread-count="5" name="MyFirstProject(failed)">
     <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="com.webdriveruniversity.testcases.To_do_List_Test">
+      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
         <methods>
           <include name="Browser_Launch"/>
+          <include name="Test_Case_029"/>
           <include name="Browser_Close"/>
-          <include name="Test_Case_018"/>
         </methods>
-      </class> <!-- com.webdriveruniversity.testcases.To_do_List_Test -->
+      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
     </classes>
   </test> <!-- MyFirstProject(failed) -->
 </suite> <!-- Failed suite [MyFirstProject] -->
