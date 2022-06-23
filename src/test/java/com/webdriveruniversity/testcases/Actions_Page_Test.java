@@ -33,7 +33,6 @@ public class Actions_Page_Test extends Base_Page_Test
 	@Test
 	public void Test_Case_032() throws Exception
 	{
-		Thread.sleep(2000);
 		Actions_Page page_objects=new Actions_Page(driver);
 		Assert.assertEquals(page_objects.Double_Click_Me.getAttribute("className"), "div-double-click");
 		page_objects.Double_Click_Me();
@@ -47,7 +46,6 @@ public class Actions_Page_Test extends Base_Page_Test
 		Actions_Page page_objects=new Actions_Page(driver);
 		page_objects.Hover_Me_First();
 		page_objects.Click_Hover_Me_First_Link1();
-		Thread.sleep(2000);
 		Assert.assertEquals(driver.switchTo().alert().getText(),"Well done you clicked on the link!");
 		driver.switchTo().alert().accept();
 		Reporter.log("Test Case 033 : Mouse Action & Link clicked successfully", true);
@@ -59,7 +57,6 @@ public class Actions_Page_Test extends Base_Page_Test
 		Actions_Page page_objects=new Actions_Page(driver);
 		page_objects.Hover_Me_Second();
 		page_objects.Click_Hover_Me_Second_Link1();
-		Thread.sleep(2000);
 		Assert.assertEquals(driver.switchTo().alert().getText(),"Well done you clicked on the link!");
 		driver.switchTo().alert().accept();
 		Reporter.log("Test Case 034 : Mouse Action & Link clicked successfully", true);
@@ -71,7 +68,6 @@ public class Actions_Page_Test extends Base_Page_Test
 		Actions_Page page_objects=new Actions_Page(driver);
 		page_objects.Hover_Me_Third();
 		page_objects.Click_Hover_Me_Third_Link1();
-		Thread.sleep(2000);
 		Assert.assertEquals(driver.switchTo().alert().getText(),"Well done you clicked on the link!");
 		driver.switchTo().alert().accept();
 		Reporter.log("Test Case 035 : Mouse Action & Link clicked successfully", true);
@@ -83,7 +79,6 @@ public class Actions_Page_Test extends Base_Page_Test
 		Actions_Page page_objects=new Actions_Page(driver);
 		page_objects.Hover_Me_Third();
 		page_objects.Click_Hover_Me_Third_Link1();
-		Thread.sleep(2000);
 		Assert.assertEquals(driver.switchTo().alert().getText(),"Well done you clicked on the link!");
 		driver.switchTo().alert().accept();
 		Reporter.log("Test Case 036 : Mouse Action & Link clicked successfully", true);

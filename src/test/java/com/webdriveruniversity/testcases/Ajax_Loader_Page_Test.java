@@ -31,7 +31,7 @@ public class Ajax_Loader_Page_Test extends Base_Page_Test
 		WebDriverWait wait=new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.visibilityOf(page_object.Click_Button));
 		page_object.Click_Click_Button();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		Assert.assertEquals(page_object.Get_Modal_dialog_Text() , "Well Done For Waiting....!!!");
 		Reporter.log("Test Case 029 : On Clicking Click button Modal Dialog is Displayed with expected text", true);
 		page_object.Close_Modal_Dialog();

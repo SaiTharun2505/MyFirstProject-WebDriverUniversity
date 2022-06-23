@@ -13,6 +13,7 @@
      	 <class name="com.webdriveruniversity.testcases.DCR_Page_Test"/>
      	 <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test"/>
      	 <class name="com.webdriveruniversity.testcases.Actions_Page_Test"/>
+     	 <class name="com.webdriveruniversity.testcases.Scrolling_Page_Test"/>
       </classes>
   </test> <!-- Test --> 
 </suite> <!-- Suite -->

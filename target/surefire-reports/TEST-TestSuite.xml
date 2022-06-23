@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="132.915" tests="27" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="201.311" tests="37" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\sakka\AppData\Local\Temp\surefire8326659416086518818\surefirebooter5719779879319673246.jar C:\Users\sakka\AppData\Local\Temp\surefire8326659416086518818 2022-06-22T13-28-23_047-jvmRun1 surefire1907997910338506854tmp surefire_01662077710597682552tmp"/>
+    <property name="sun.java.command" value="C:\Users\sakka\AppData\Local\Temp\surefire575473006440570332\surefirebooter154647261774677713.jar C:\Users\sakka\AppData\Local\Temp\surefire575473006440570332 2022-06-23T10-22-19_857-jvmRun1 surefire9164005600769810280tmp surefire_09094358828946791688tmp"/>
     <property name="surefire.test.class.path" value="E:\PROFESSIONAL\eclipse workspace\MyFirstProject\target\test-classes;E:\PROFESSIONAL\eclipse workspace\MyFirstProject\target\classes;C:\Users\sakka\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sakka\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sakka\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sakka\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sakka\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sakka\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sakka\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sakka\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sakka\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sakka\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sakka\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sakka\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sakka\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sakka\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\sakka"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\sakka\AppData\Local\Temp\surefire8326659416086518818\surefirebooter5719779879319673246.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sakka\AppData\Local\Temp\surefire575473006440570332\surefirebooter154647261774677713.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Program Files\Java\jre1.8.0_333\bin;E:\PROFESSIONAL\selenium-jars&amp;drivers\Maven\apache-maven-3.8.6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sakka\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sakka\AppData\Local\Programs\Python\Python39\;E:\python installation\Scripts\;E:\python installation\;C:\Users\sakka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CodeBlocks\MinGW\bin;;E:\pycharm installation\PyCharm Community Edition 2020.3.3\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_333/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_333/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_333/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Program Files\Java\jre1.8.0_333\bin;E:\PROFESSIONAL\selenium-jars&amp;drivers\Maven\apache-maven-3.8.6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sakka\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\sakka\AppData\Local\Programs\Python\Python39\;E:\python installation\Scripts\;E:\python installation\;C:\Users\sakka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\CodeBlocks\MinGW\bin;;E:\pycharm installation\PyCharm Community Edition 2020.3.3\bin;;E:\PROFESSIONAL\installed\Eclipse installation\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.333-b02"/>
@@ -60,31 +60,41 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="TestCase_001" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="1.634"/>
-  <testcase name="TestCase_002" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="1.262"/>
-  <testcase name="TestCase_003" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="0.487"/>
-  <testcase name="TestCase_004" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="0.485"/>
-  <testcase name="TestCase_005" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="0.55"/>
-  <testcase name="TestCase_006" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="0.873"/>
-  <testcase name="TestCase_007" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="2.244"/>
-  <testcase name="TestCase_008" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="2.193"/>
-  <testcase name="TestCase_009" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="4.319"/>
-  <testcase name="Test_Case_010" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="1.173"/>
-  <testcase name="Test_Case_011" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.151"/>
-  <testcase name="Test_Case_012" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.168"/>
-  <testcase name="Test_Case_013" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.195"/>
-  <testcase name="Test_Case_014" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.228"/>
-  <testcase name="Test_Case_015" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.163"/>
-  <testcase name="Test_Case_016" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.155"/>
-  <testcase name="Test_Case_017" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="8.428"/>
-  <testcase name="Test_Case_018" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="3.043"/>
-  <testcase name="Test_Case_019" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="4.517"/>
-  <testcase name="Test_Case_020" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="11.964"/>
-  <testcase name="Test_Case_021" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="11.954"/>
-  <testcase name="Test_Case_022" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="11.94"/>
-  <testcase name="Test_Case_023" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.253"/>
-  <testcase name="Test_Case_024" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.191"/>
-  <testcase name="Test_Case_025" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.197"/>
-  <testcase name="Test_Case_026" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.189"/>
-  <testcase name="Test_Case_027" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="11.263"/>
+  <testcase name="TestCase_001" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="2.068"/>
+  <testcase name="TestCase_002" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="1.38"/>
+  <testcase name="TestCase_003" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="0.784"/>
+  <testcase name="TestCase_004" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="0.728"/>
+  <testcase name="TestCase_005" classname="com.webdriveruniversity.testcases.Login_Page_Test" time="0.675"/>
+  <testcase name="TestCase_006" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="1.176"/>
+  <testcase name="TestCase_007" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="2.339"/>
+  <testcase name="TestCase_008" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="2.282"/>
+  <testcase name="TestCase_009" classname="com.webdriveruniversity.testcases.Buttons_Page_Test" time="4.486"/>
+  <testcase name="Test_Case_010" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="1.489"/>
+  <testcase name="Test_Case_011" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.254"/>
+  <testcase name="Test_Case_012" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.238"/>
+  <testcase name="Test_Case_013" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.196"/>
+  <testcase name="Test_Case_014" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.241"/>
+  <testcase name="Test_Case_015" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.207"/>
+  <testcase name="Test_Case_016" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.231"/>
+  <testcase name="Test_Case_017" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="8.399"/>
+  <testcase name="Test_Case_018" classname="com.webdriveruniversity.testcases.To_do_List_Test" time="2.792"/>
+  <testcase name="Test_Case_019" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="4.173"/>
+  <testcase name="Test_Case_020" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="12.178"/>
+  <testcase name="Test_Case_021" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="12.18"/>
+  <testcase name="Test_Case_022" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="12.099"/>
+  <testcase name="Test_Case_023" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.257"/>
+  <testcase name="Test_Case_024" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.218"/>
+  <testcase name="Test_Case_025" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.185"/>
+  <testcase name="Test_Case_026" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="2.208"/>
+  <testcase name="Test_Case_027" classname="com.webdriveruniversity.testcases.DCR_Page_Test" time="11.17"/>
+  <testcase name="Test_Case_028" classname="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test" time="1.352"/>
+  <testcase name="Test_Case_029" classname="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test" time="8.567"/>
+  <testcase name="Test_Case_030" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="1.575"/>
+  <testcase name="Test_Case_031" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="0.47"/>
+  <testcase name="Test_Case_032" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="2.265"/>
+  <testcase name="Test_Case_033" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="2.45"/>
+  <testcase name="Test_Case_034" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="2.399"/>
+  <testcase name="Test_Case_035" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="2.43"/>
+  <testcase name="Test_Case_036" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="2.353"/>
+  <testcase name="Test_Case_037" classname="com.webdriveruniversity.testcases.Actions_Page_Test" time="0.271"/>
 </testsuite>

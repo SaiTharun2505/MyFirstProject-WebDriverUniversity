@@ -3,14 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
+      <class name="com.webdriveruniversity.testcases.Scrolling_Page_Test">
         <methods>
           <include name="Browser_Launch"/>
-          <include name="Test_Case_029"/>
+          <include name="Test_Case_042"/>
+          <include name="Test_Case_041"/>
+          <include name="Test_Case_040"/>
+          <include name="Test_Case_039"/>
           <include name="Browser_Close"/>
-          <include name="Test_Case_028"/>
+          <include name="Test_Case_038"/>
         </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
+      </class> <!-- com.webdriveruniversity.testcases.Scrolling_Page_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

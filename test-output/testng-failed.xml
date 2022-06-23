@@ -7,46 +7,10 @@
   <test thread-count="5" name="MyFirstProject(failed)">
     <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="com.webdriveruniversity.testcases.Actions_Page_Test">
-        <methods>
-          <include name="Browser_Launch"/>
-          <include name="Test_Case_031"/>
-          <include name="Browser_Close"/>
-        </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Actions_Page_Test -->
-      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
-        <methods>
-          <include name="Browser_Launch"/>
-          <include name="Test_Case_029"/>
-          <include name="Browser_Close"/>
-        </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
-      <class name="com.webdriveruniversity.testcases.Login_Page_Test">
-        <methods>
-          <include name="TestCase_002"/>
-          <include name="Browser_Launch"/>
-          <include name="TestCase_001"/>
-          <include name="Browser_Close"/>
-        </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Login_Page_Test -->
-      <class name="com.webdriveruniversity.testcases.To_do_List_Test">
-        <methods>
-          <include name="Browser_Launch"/>
-          <include name="Test_Case_011"/>
-          <include name="Browser_Close"/>
-        </methods>
-      </class> <!-- com.webdriveruniversity.testcases.To_do_List_Test -->
-      <class name="com.webdriveruniversity.testcases.DCR_Page_Test">
-        <methods>
-          <include name="Browser_Launch"/>
-          <include name="Test_Case_020"/>
-          <include name="Browser_Close"/>
-        </methods>
-      </class> <!-- com.webdriveruniversity.testcases.DCR_Page_Test -->
       <class name="com.webdriveruniversity.testcases.Buttons_Page_Test">
         <methods>
           <include name="Browser_Launch"/>
-          <include name="TestCase_007"/>
+          <include name="TestCase_009"/>
           <include name="TestCase_006"/>
           <include name="Browser_Close"/>
         </methods>
