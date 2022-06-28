@@ -15,6 +15,13 @@
           <include name="Browser_Close"/>
         </methods>
       </class> <!-- com.webdriveruniversity.testcases.Buttons_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.Actions_Page_Test">
+        <methods>
+          <include name="Browser_Launch"/>
+          <include name="Test_Case_034"/>
+          <include name="Browser_Close"/>
+        </methods>
+      </class> <!-- com.webdriveruniversity.testcases.Actions_Page_Test -->
     </classes>
   </test> <!-- MyFirstProject(failed) -->
 </suite> <!-- Failed suite [MyFirstProject] -->

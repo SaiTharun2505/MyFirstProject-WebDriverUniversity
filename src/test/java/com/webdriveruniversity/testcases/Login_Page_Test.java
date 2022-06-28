@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.webdriveruniversity.pageobjects.Login_Page;
+import com.webdriveruniversity.utilities.Data_Driven_Reusable;
 import com.webdriveruniversity.utilities.Reusable_Keywords;
 
 public class Login_Page_Test extends Base_Page_Test
@@ -28,11 +29,14 @@ public class Login_Page_Test extends Base_Page_Test
 		{
 			SoftAssert softAssertion=new SoftAssert();
 			Login_Page page_object=new Login_Page(driver);
-			page_object.setLoginUser("webdriver");
-			page_object.setLoginPassword("webdriver123");
+			
+			Data_Driven_Reusable.Access_To_Work_Book();
+			System.out.println(Data_Driven_Reusable.getcelldata(1, 0));
+			page_object.setLoginUser(Data_Driven_Reusable.getcelldata(1, 0));
+			page_object.setLoginPassword(Data_Driven_Reusable.getcelldata(1, 1));
 			page_object.click_Login();
 			
-			softAssertion.assertTrue(driver.switchTo().alert().getText().contains("validation succeeded"));
+			Assert.assertTrue(driver.switchTo().alert().getText().contains("validation succeeded"));
 			Reporter.log("Test Case 2 : Login Successful using valid credentials : "+driver.switchTo().alert().getText().contains("validation succeeded"),true);
 			
 			driver.switchTo().alert().accept();
