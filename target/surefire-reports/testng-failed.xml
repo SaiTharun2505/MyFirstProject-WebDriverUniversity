@@ -1,38 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MyFirstProject]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MyFirstProject]">
   <listeners>
     <listener class-name="com.webdriveruniversity.utilities.Test_Results"/>
   </listeners>
-  <test thread-count="5" name="MyFirstProject(failed)">
+  <test thread-count="5" verbose="0" name="MyFirstProject(failed)">
     <parameter name="Browser" value="Chrome"/>
     <classes>
-      <class name="com.webdriveruniversity.testcases.DCR_Page_Test">
+      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
         <methods>
           <include name="Browser_Launch"/>
-          <include name="Test_Case_020"/>
-          <include name="Test_Case_021"/>
-          <include name="Test_Case_022"/>
-          <include name="Test_Case_027"/>
+          <include name="Test_Case_029"/>
           <include name="Browser_Close"/>
-          <include name="Test_Case_019"/>
-          <include name="Test_Case_023"/>
-          <include name="Test_Case_024"/>
-          <include name="Test_Case_025"/>
-          <include name="Test_Case_026"/>
+          <include name="Test_Case_028"/>
         </methods>
-      </class> <!-- com.webdriveruniversity.testcases.DCR_Page_Test -->
-      <class name="com.webdriveruniversity.testcases.Login_Page_Test">
-        <methods>
-          <include name="TestCase_002"/>
-          <include name="Browser_Launch"/>
-          <include name="TestCase_003"/>
-          <include name="TestCase_004"/>
-          <include name="TestCase_001"/>
-          <include name="Browser_Close"/>
-          <include name="TestCase_005"/>
-        </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Login_Page_Test -->
+      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
       <class name="com.webdriveruniversity.testcases.To_do_List_Test">
         <methods>
           <include name="Browser_Launch"/>
@@ -48,16 +30,6 @@
           <include name="Test_Case_018"/>
         </methods>
       </class> <!-- com.webdriveruniversity.testcases.To_do_List_Test -->
-      <class name="com.webdriveruniversity.testcases.Buttons_Page_Test">
-        <methods>
-          <include name="Browser_Launch"/>
-          <include name="TestCase_009"/>
-          <include name="TestCase_007"/>
-          <include name="TestCase_008"/>
-          <include name="TestCase_006"/>
-          <include name="Browser_Close"/>
-        </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Buttons_Page_Test -->
       <class name="com.webdriveruniversity.testcases.Actions_Page_Test">
         <methods>
           <include name="Test_Case_033"/>
@@ -72,6 +44,27 @@
           <include name="Test_Case_035"/>
         </methods>
       </class> <!-- com.webdriveruniversity.testcases.Actions_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.Buttons_Page_Test">
+        <methods>
+          <include name="Browser_Launch"/>
+          <include name="TestCase_009"/>
+          <include name="TestCase_007"/>
+          <include name="TestCase_008"/>
+          <include name="TestCase_006"/>
+          <include name="Browser_Close"/>
+        </methods>
+      </class> <!-- com.webdriveruniversity.testcases.Buttons_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.Login_Page_Test">
+        <methods>
+          <include name="TestCase_002"/>
+          <include name="Browser_Launch"/>
+          <include name="TestCase_003"/>
+          <include name="TestCase_004"/>
+          <include name="TestCase_001"/>
+          <include name="Browser_Close"/>
+          <include name="TestCase_005"/>
+        </methods>
+      </class> <!-- com.webdriveruniversity.testcases.Login_Page_Test -->
       <class name="com.webdriveruniversity.testcases.Scrolling_Page_Test">
         <methods>
           <include name="Browser_Launch"/>
@@ -83,14 +76,21 @@
           <include name="Test_Case_038"/>
         </methods>
       </class> <!-- com.webdriveruniversity.testcases.Scrolling_Page_Test -->
-      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
+      <class name="com.webdriveruniversity.testcases.DCR_Page_Test">
         <methods>
           <include name="Browser_Launch"/>
-          <include name="Test_Case_029"/>
+          <include name="Test_Case_020"/>
+          <include name="Test_Case_021"/>
+          <include name="Test_Case_022"/>
+          <include name="Test_Case_027"/>
           <include name="Browser_Close"/>
-          <include name="Test_Case_028"/>
+          <include name="Test_Case_019"/>
+          <include name="Test_Case_023"/>
+          <include name="Test_Case_024"/>
+          <include name="Test_Case_025"/>
+          <include name="Test_Case_026"/>
         </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
+      </class> <!-- com.webdriveruniversity.testcases.DCR_Page_Test -->
     </classes>
   </test> <!-- MyFirstProject(failed) -->
 </suite> <!-- Failed suite [MyFirstProject] -->

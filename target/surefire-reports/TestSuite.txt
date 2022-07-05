@@ -1,4 +1,228 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 201.311 s - in TestSuite
+Tests run: 56, Failures: 7, Errors: 0, Skipped: 49, Time elapsed: 14.559 s <<< FAILURE! - in TestSuite
+Browser_Launch(com.webdriveruniversity.testcases.Login_Page_Test)  Time elapsed: 3.416 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.66 with binary path C:\Users\sakka\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0071B8F3+2406643]
+	Ordinal0 [0x006AAF31+1945393]
+	Ordinal0 [0x0059C748+837448]
+	Ordinal0 [0x005BC8B3+968883]
+	Ordinal0 [0x005B84BA+951482]
+	Ordinal0 [0x005B5D71+941425]
+	Ordinal0 [0x005E8EE0+1150688]
+	Ordinal0 [0x005E8B3A+1149754]
+	Ordinal0 [0x005E4096+1130646]
+	Ordinal0 [0x005BE636+976438]
+	Ordinal0 [0x005BF546+980294]
+	GetHandleVerifier [0x00989612+2498066]
+	GetHandleVerifier [0x0097C920+2445600]
+	GetHandleVerifier [0x007B4F2A+579370]
+	GetHandleVerifier [0x007B3D36+574774]
+	Ordinal0 [0x006B1C0B+1973259]
+	Ordinal0 [0x006B6688+1992328]
+	Ordinal0 [0x006B6775+1992565]
+	Ordinal0 [0x006BF8D1+2029777]
+	BaseThreadInitThunk [0x7725FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A6E+238]
+
+
+Browser_Launch(com.webdriveruniversity.testcases.Buttons_Page_Test)  Time elapsed: 5.328 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.66 with binary path C:\Users\sakka\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0071B8F3+2406643]
+	Ordinal0 [0x006AAF31+1945393]
+	Ordinal0 [0x0059C748+837448]
+	Ordinal0 [0x005BC8B3+968883]
+	Ordinal0 [0x005B84BA+951482]
+	Ordinal0 [0x005B5D71+941425]
+	Ordinal0 [0x005E8EE0+1150688]
+	Ordinal0 [0x005E8B3A+1149754]
+	Ordinal0 [0x005E4096+1130646]
+	Ordinal0 [0x005BE636+976438]
+	Ordinal0 [0x005BF546+980294]
+	GetHandleVerifier [0x00989612+2498066]
+	GetHandleVerifier [0x0097C920+2445600]
+	GetHandleVerifier [0x007B4F2A+579370]
+	GetHandleVerifier [0x007B3D36+574774]
+	Ordinal0 [0x006B1C0B+1973259]
+	Ordinal0 [0x006B6688+1992328]
+	Ordinal0 [0x006B6775+1992565]
+	Ordinal0 [0x006BF8D1+2029777]
+	BaseThreadInitThunk [0x7725FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A6E+238]
+
+
+Browser_Launch(com.webdriveruniversity.testcases.To_do_List_Test)  Time elapsed: 7.084 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.66 with binary path C:\Users\sakka\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0071B8F3+2406643]
+	Ordinal0 [0x006AAF31+1945393]
+	Ordinal0 [0x0059C748+837448]
+	Ordinal0 [0x005BC8B3+968883]
+	Ordinal0 [0x005B84BA+951482]
+	Ordinal0 [0x005B5D71+941425]
+	Ordinal0 [0x005E8EE0+1150688]
+	Ordinal0 [0x005E8B3A+1149754]
+	Ordinal0 [0x005E4096+1130646]
+	Ordinal0 [0x005BE636+976438]
+	Ordinal0 [0x005BF546+980294]
+	GetHandleVerifier [0x00989612+2498066]
+	GetHandleVerifier [0x0097C920+2445600]
+	GetHandleVerifier [0x007B4F2A+579370]
+	GetHandleVerifier [0x007B3D36+574774]
+	Ordinal0 [0x006B1C0B+1973259]
+	Ordinal0 [0x006B6688+1992328]
+	Ordinal0 [0x006B6775+1992565]
+	Ordinal0 [0x006BF8D1+2029777]
+	BaseThreadInitThunk [0x7725FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A6E+238]
+
+
+Browser_Launch(com.webdriveruniversity.testcases.DCR_Page_Test)  Time elapsed: 8.948 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.66 with binary path C:\Users\sakka\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0071B8F3+2406643]
+	Ordinal0 [0x006AAF31+1945393]
+	Ordinal0 [0x0059C748+837448]
+	Ordinal0 [0x005BC8B3+968883]
+	Ordinal0 [0x005B84BA+951482]
+	Ordinal0 [0x005B5D71+941425]
+	Ordinal0 [0x005E8EE0+1150688]
+	Ordinal0 [0x005E8B3A+1149754]
+	Ordinal0 [0x005E4096+1130646]
+	Ordinal0 [0x005BE636+976438]
+	Ordinal0 [0x005BF546+980294]
+	GetHandleVerifier [0x00989612+2498066]
+	GetHandleVerifier [0x0097C920+2445600]
+	GetHandleVerifier [0x007B4F2A+579370]
+	GetHandleVerifier [0x007B3D36+574774]
+	Ordinal0 [0x006B1C0B+1973259]
+	Ordinal0 [0x006B6688+1992328]
+	Ordinal0 [0x006B6775+1992565]
+	Ordinal0 [0x006BF8D1+2029777]
+	BaseThreadInitThunk [0x7725FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A6E+238]
+
+
+Browser_Launch(com.webdriveruniversity.testcases.Ajax_Loader_Page_Test)  Time elapsed: 10.523 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.66 with binary path C:\Users\sakka\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0071B8F3+2406643]
+	Ordinal0 [0x006AAF31+1945393]
+	Ordinal0 [0x0059C748+837448]
+	Ordinal0 [0x005BC8B3+968883]
+	Ordinal0 [0x005B84BA+951482]
+	Ordinal0 [0x005B5D71+941425]
+	Ordinal0 [0x005E8EE0+1150688]
+	Ordinal0 [0x005E8B3A+1149754]
+	Ordinal0 [0x005E4096+1130646]
+	Ordinal0 [0x005BE636+976438]
+	Ordinal0 [0x005BF546+980294]
+	GetHandleVerifier [0x00989612+2498066]
+	GetHandleVerifier [0x0097C920+2445600]
+	GetHandleVerifier [0x007B4F2A+579370]
+	GetHandleVerifier [0x007B3D36+574774]
+	Ordinal0 [0x006B1C0B+1973259]
+	Ordinal0 [0x006B6688+1992328]
+	Ordinal0 [0x006B6775+1992565]
+	Ordinal0 [0x006BF8D1+2029777]
+	BaseThreadInitThunk [0x7725FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A6E+238]
+
+
+Browser_Launch(com.webdriveruniversity.testcases.Actions_Page_Test)  Time elapsed: 12.316 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.66 with binary path C:\Users\sakka\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0071B8F3+2406643]
+	Ordinal0 [0x006AAF31+1945393]
+	Ordinal0 [0x0059C748+837448]
+	Ordinal0 [0x005BC8B3+968883]
+	Ordinal0 [0x005B84BA+951482]
+	Ordinal0 [0x005B5D71+941425]
+	Ordinal0 [0x005E8EE0+1150688]
+	Ordinal0 [0x005E8B3A+1149754]
+	Ordinal0 [0x005E4096+1130646]
+	Ordinal0 [0x005BE636+976438]
+	Ordinal0 [0x005BF546+980294]
+	GetHandleVerifier [0x00989612+2498066]
+	GetHandleVerifier [0x0097C920+2445600]
+	GetHandleVerifier [0x007B4F2A+579370]
+	GetHandleVerifier [0x007B3D36+574774]
+	Ordinal0 [0x006B1C0B+1973259]
+	Ordinal0 [0x006B6688+1992328]
+	Ordinal0 [0x006B6775+1992565]
+	Ordinal0 [0x006BF8D1+2029777]
+	BaseThreadInitThunk [0x7725FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A6E+238]
+
+
+Browser_Launch(com.webdriveruniversity.testcases.Scrolling_Page_Test)  Time elapsed: 14.106 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 101
+Current browser version is 103.0.5060.66 with binary path C:\Users\sakka\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0071B8F3+2406643]
+	Ordinal0 [0x006AAF31+1945393]
+	Ordinal0 [0x0059C748+837448]
+	Ordinal0 [0x005BC8B3+968883]
+	Ordinal0 [0x005B84BA+951482]
+	Ordinal0 [0x005B5D71+941425]
+	Ordinal0 [0x005E8EE0+1150688]
+	Ordinal0 [0x005E8B3A+1149754]
+	Ordinal0 [0x005E4096+1130646]
+	Ordinal0 [0x005BE636+976438]
+	Ordinal0 [0x005BF546+980294]
+	GetHandleVerifier [0x00989612+2498066]
+	GetHandleVerifier [0x0097C920+2445600]
+	GetHandleVerifier [0x007B4F2A+579370]
+	GetHandleVerifier [0x007B3D36+574774]
+	Ordinal0 [0x006B1C0B+1973259]
+	Ordinal0 [0x006B6688+1992328]
+	Ordinal0 [0x006B6775+1992565]
+	Ordinal0 [0x006BF8D1+2029777]
+	BaseThreadInitThunk [0x7725FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77777A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77777A6E+238]
+
+

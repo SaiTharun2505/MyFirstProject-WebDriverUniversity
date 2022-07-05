@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="42" passed="40">
+<testng-results skipped="0" failed="0" ignored="0" total="42" passed="42">
   <reporter-output>
     <line>
       <![CDATA[Test case 1 : On Clicking Login Portal link redirecting to Login Page : true]]>
@@ -24,6 +24,9 @@
     </line>
     <line>
       <![CDATA[Test Case 8 : User Able to click the Javascript click : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 9 : User Able to click the Action Move click : true]]>
     </line>
     <line>
       <![CDATA[Test Case 010 : On Clicking the To do list link redireccting to to do list page : true]]>
@@ -110,6 +113,9 @@
       <![CDATA[Test Case 033 : Mouse Action & Link clicked successfully]]>
     </line>
     <line>
+      <![CDATA[Test Case 034 : Mouse Action & Link clicked successfully]]>
+    </line>
+    <line>
       <![CDATA[Test Case 035 : Mouse Action & Link clicked successfully]]>
     </line>
     <line>
@@ -134,12 +140,12 @@
       <![CDATA[Test Case 042: User able to scroll to dont forget to scroll me button]]>
     </line>
   </reporter-output>
-  <suite name="MyFirstProject" duration-ms="166711" started-at="2022-06-27T06:55:57Z" finished-at="2022-06-27T06:58:44Z">
+  <suite name="MyFirstProject" duration-ms="92374" started-at="2022-07-04T09:11:29Z" finished-at="2022-07-04T09:13:01Z">
     <groups>
     </groups>
-    <test name="MyFirstProject" duration-ms="166711" started-at="2022-06-27T06:55:57Z" finished-at="2022-06-27T06:58:44Z">
+    <test name="MyFirstProject" duration-ms="92374" started-at="2022-07-04T09:11:29Z" finished-at="2022-07-04T09:13:01Z">
       <class name="com.webdriveruniversity.testcases.Buttons_Page_Test">
-        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="Browser_Launch" is-config="true" duration-ms="7070" started-at="2022-06-27T06:56:44Z" finished-at="2022-06-27T06:56:51Z">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="Browser_Launch" is-config="true" duration-ms="5350" started-at="2022-07-04T09:11:49Z" finished-at="2022-07-04T09:11:54Z">
           <params>
             <param index="0">
               <value>
@@ -150,85 +156,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Launch -->
-        <test-method status="PASS" signature="TestCase_006()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_006" duration-ms="1227" started-at="2022-06-27T06:56:51Z" finished-at="2022-06-27T06:56:52Z">
+        <test-method status="PASS" signature="TestCase_006()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_006" duration-ms="1053" started-at="2022-07-04T09:11:54Z" finished-at="2022-07-04T09:11:55Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 6 : On clicking buttons links redirecting to buttons Page : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_006 -->
-        <test-method status="PASS" signature="TestCase_007()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_007" duration-ms="551" started-at="2022-06-27T06:56:52Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-06-27T06:56:53Z">
+        <test-method status="PASS" signature="TestCase_007()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_007" duration-ms="983" started-at="2022-07-04T09:11:55Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-07-04T09:11:56Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 7 : User Able to click the Webelement click : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_007 -->
-        <test-method status="PASS" signature="TestCase_008()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_008" duration-ms="1045" started-at="2022-06-27T06:56:53Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-06-27T06:56:54Z">
+        <test-method status="PASS" signature="TestCase_008()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_008" duration-ms="794" started-at="2022-07-04T09:11:56Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-07-04T09:11:57Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 8 : User Able to click the Javascript click : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_008 -->
-        <test-method status="FAIL" signature="TestCase_009()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_009" duration-ms="33284" started-at="2022-06-27T06:56:54Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-06-27T06:57:27Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (edbeeb5048af9e18eeada3e6c8219fa8)] -> xpath: (//div[@class='modal-header']/h4)[3]] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sakka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: edbeeb5048af9e18eeada3e6c8219fa8]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (edbeeb5048af9e18eeada3e6c8219fa8)] -> xpath: (//div[@class='modal-header']/h4)[3]] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sakka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: edbeeb5048af9e18eeada3e6c8219fa8
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_009(Buttons_Page_Test.java:69)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="TestCase_009()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="TestCase_009" duration-ms="3111" started-at="2022-07-04T09:11:57Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-07-04T09:12:00Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Case 9 : User Able to click the Action Move click : true]]>
+            </line>
           </reporter-output>
         </test-method> <!-- TestCase_009 -->
-        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="Browser_Close" is-config="true" duration-ms="1273" started-at="2022-06-27T06:57:27Z" finished-at="2022-06-27T06:57:29Z">
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@6d4b1c02]" name="Browser_Close" is-config="true" duration-ms="1003" started-at="2022-07-04T09:12:00Z" finished-at="2022-07-04T09:12:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Close -->
       </class> <!-- com.webdriveruniversity.testcases.Buttons_Page_Test -->
       <class name="com.webdriveruniversity.testcases.To_do_List_Test">
-        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Browser_Launch" is-config="true" duration-ms="6826" started-at="2022-06-27T06:57:29Z" finished-at="2022-06-27T06:57:36Z">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Browser_Launch" is-config="true" duration-ms="5093" started-at="2022-07-04T09:12:01Z" finished-at="2022-07-04T09:12:06Z">
           <params>
             <param index="0">
               <value>
@@ -239,76 +201,76 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Launch -->
-        <test-method status="PASS" signature="Test_Case_010()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_010" duration-ms="1228" started-at="2022-06-27T06:57:36Z" finished-at="2022-06-27T06:57:37Z">
+        <test-method status="PASS" signature="Test_Case_010()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_010" duration-ms="1316" started-at="2022-07-04T09:12:06Z" finished-at="2022-07-04T09:12:07Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 010 : On Clicking the To do list link redireccting to to do list page : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_010 -->
-        <test-method status="PASS" signature="Test_Case_011()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_011" duration-ms="152" started-at="2022-06-27T06:57:37Z" finished-at="2022-06-27T06:57:37Z">
+        <test-method status="PASS" signature="Test_Case_011()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_011" duration-ms="114" started-at="2022-07-04T09:12:07Z" finished-at="2022-07-04T09:12:08Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 011 : On Launching the page Add new to do field is Displayed : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_011 -->
-        <test-method status="PASS" signature="Test_Case_012()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_012" duration-ms="860" started-at="2022-06-27T06:57:37Z" finished-at="2022-06-27T06:57:38Z">
+        <test-method status="PASS" signature="Test_Case_012()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_012" duration-ms="822" started-at="2022-07-04T09:12:08Z" finished-at="2022-07-04T09:12:08Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 012 : On Clicking the plus button Add new to do field is Hidden if it is displayed earlier: true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_012 -->
-        <test-method status="PASS" signature="Test_Case_013()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_013" duration-ms="161" started-at="2022-06-27T06:57:38Z" finished-at="2022-06-27T06:57:38Z">
+        <test-method status="PASS" signature="Test_Case_013()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_013" duration-ms="123" started-at="2022-07-04T09:12:08Z" finished-at="2022-07-04T09:12:09Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 013 : On Clicking the plus button Add new to do field is Displayed if it is in Hidden state earlier : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_013 -->
-        <test-method status="PASS" signature="Test_Case_014()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_014" duration-ms="196" started-at="2022-06-27T06:57:38Z" finished-at="2022-06-27T06:57:38Z">
+        <test-method status="PASS" signature="Test_Case_014()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_014" duration-ms="175" started-at="2022-07-04T09:12:09Z" finished-at="2022-07-04T09:12:09Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 014 : On Clicking the Go To Portion class button, its status changed to completed : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_014 -->
-        <test-method status="PASS" signature="Test_Case_015()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_015" duration-ms="166" started-at="2022-06-27T06:57:38Z" finished-at="2022-06-27T06:57:38Z">
+        <test-method status="PASS" signature="Test_Case_015()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_015" duration-ms="152" started-at="2022-07-04T09:12:09Z" finished-at="2022-07-04T09:12:09Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 015 : On Clicking the Buy New Robes button, its status changed to completed : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_015 -->
-        <test-method status="PASS" signature="Test_Case_016()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_016" duration-ms="174" started-at="2022-06-27T06:57:38Z" finished-at="2022-06-27T06:57:39Z">
+        <test-method status="PASS" signature="Test_Case_016()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_016" duration-ms="142" started-at="2022-07-04T09:12:09Z" finished-at="2022-07-04T09:12:09Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 016 : On Clicking the practice magic button, its status changed to completed : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_016 -->
-        <test-method status="PASS" signature="Test_Case_017()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_017" duration-ms="1928" started-at="2022-06-27T06:57:39Z" finished-at="2022-06-27T06:57:40Z">
+        <test-method status="PASS" signature="Test_Case_017()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_017" duration-ms="1837" started-at="2022-07-04T09:12:09Z" finished-at="2022-07-04T09:12:11Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 017 : User Able to Delete to do list one by one : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_017 -->
-        <test-method status="PASS" signature="Test_Case_018()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_018" duration-ms="720" started-at="2022-06-27T06:57:40Z" finished-at="2022-06-27T06:57:41Z">
+        <test-method status="PASS" signature="Test_Case_018()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Test_Case_018" duration-ms="612" started-at="2022-07-04T09:12:11Z" finished-at="2022-07-04T09:12:11Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 018 : User Able to add to do actions in To do list : Go to Gym]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_018 -->
-        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Browser_Close" is-config="true" duration-ms="1298" started-at="2022-06-27T06:57:41Z" finished-at="2022-06-27T06:57:42Z">
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@6093dd95]" name="Browser_Close" is-config="true" duration-ms="967" started-at="2022-07-04T09:12:11Z" finished-at="2022-07-04T09:12:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Close -->
       </class> <!-- com.webdriveruniversity.testcases.To_do_List_Test -->
       <class name="com.webdriveruniversity.testcases.Login_Page_Test">
-        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="Browser_Launch" is-config="true" duration-ms="32361" started-at="2022-06-27T06:55:57Z" finished-at="2022-06-27T06:56:30Z">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="Browser_Launch" is-config="true" duration-ms="10602" started-at="2022-07-04T09:11:29Z" finished-at="2022-07-04T09:11:39Z">
           <params>
             <param index="0">
               <value>
@@ -319,48 +281,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Launch -->
-        <test-method status="PASS" signature="TestCase_001()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_001" duration-ms="3259" started-at="2022-06-27T06:56:30Z" finished-at="2022-06-27T06:56:33Z">
+        <test-method status="PASS" signature="TestCase_001()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_001" duration-ms="1324" started-at="2022-07-04T09:11:39Z" finished-at="2022-07-04T09:11:41Z">
           <reporter-output>
             <line>
               <![CDATA[Test case 1 : On Clicking Login Portal link redirecting to Login Page : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_001 -->
-        <test-method status="PASS" signature="TestCase_002()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_002" duration-ms="6438" started-at="2022-06-27T06:56:33Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-06-27T06:56:40Z">
+        <test-method status="PASS" signature="TestCase_002()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_002" duration-ms="5607" started-at="2022-07-04T09:11:41Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-04T09:11:46Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 2 : Login Successful using valid credentials : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_002 -->
-        <test-method status="PASS" signature="TestCase_003()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_003" duration-ms="842" started-at="2022-06-27T06:56:40Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-06-27T06:56:40Z">
+        <test-method status="PASS" signature="TestCase_003()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_003" duration-ms="531" started-at="2022-07-04T09:11:46Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-04T09:11:47Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 3 : Login unsuccessful using invalid credentials : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_003 -->
-        <test-method status="PASS" signature="TestCase_004()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_004" duration-ms="803" started-at="2022-06-27T06:56:40Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-06-27T06:56:41Z">
+        <test-method status="PASS" signature="TestCase_004()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_004" duration-ms="496" started-at="2022-07-04T09:11:47Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-04T09:11:47Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 4 : Login unsuccessful using invalid credentials : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_004 -->
-        <test-method status="PASS" signature="TestCase_005()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_005" duration-ms="732" started-at="2022-06-27T06:56:41Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-06-27T06:56:42Z">
+        <test-method status="PASS" signature="TestCase_005()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="TestCase_005" duration-ms="464" started-at="2022-07-04T09:11:47Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-04T09:11:48Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 5 : Login unsuccessful using invalid credentials : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- TestCase_005 -->
-        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="Browser_Close" is-config="true" duration-ms="1910" started-at="2022-06-27T06:56:42Z" finished-at="2022-06-27T06:56:44Z">
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@7cd62f43]" name="Browser_Close" is-config="true" duration-ms="1124" started-at="2022-07-04T09:11:48Z" finished-at="2022-07-04T09:11:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Close -->
       </class> <!-- com.webdriveruniversity.testcases.Login_Page_Test -->
-      <class name="com.webdriveruniversity.testcases.Scrolling_Page_Test">
-        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Browser_Launch" is-config="true" duration-ms="10571" started-at="2022-06-27T06:58:29Z" finished-at="2022-06-27T06:58:40Z">
+      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Browser_Launch" is-config="true" duration-ms="5164" started-at="2022-07-04T09:12:27Z" finished-at="2022-07-04T09:12:32Z">
           <params>
             <param index="0">
               <value>
@@ -371,48 +333,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Launch -->
-        <test-method status="PASS" signature="Test_Case_038()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_038" duration-ms="1292" started-at="2022-06-27T06:58:40Z" finished-at="2022-06-27T06:58:41Z">
+        <test-method status="PASS" signature="Test_Case_028()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Test_Case_028" duration-ms="1041" started-at="2022-07-04T09:12:32Z" finished-at="2022-07-04T09:12:33Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Case 038: On clicking scroll around button, link is redirecting to scrolling page]]>
+              <![CDATA[Test Case 028 : On Clicking Ajax loader page link, link is redirecting to Ajax Loader Page]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Case_038 -->
-        <test-method status="PASS" signature="Test_Case_039()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_039" duration-ms="202" started-at="2022-06-27T06:58:41Z" finished-at="2022-06-27T06:58:41Z">
+        </test-method> <!-- Test_Case_028 -->
+        <test-method status="PASS" signature="Test_Case_029()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Test_Case_029" duration-ms="7440" started-at="2022-07-04T09:12:33Z" finished-at="2022-07-04T09:12:40Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Case 039: User able to scroll to scroll me first element]]>
+              <![CDATA[Test Case 029 : On Clicking Click button Modal Dialog is Displayed with expected text]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Case_039 -->
-        <test-method status="PASS" signature="Test_Case_040()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_040" duration-ms="194" started-at="2022-06-27T06:58:41Z" finished-at="2022-06-27T06:58:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case 040: User able to scroll entries1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Case_040 -->
-        <test-method status="PASS" signature="Test_Case_041()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_041" duration-ms="200" started-at="2022-06-27T06:58:41Z" finished-at="2022-06-27T06:58:42Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case 041: User able to scroll entries2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Case_041 -->
-        <test-method status="PASS" signature="Test_Case_042()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_042" duration-ms="1251" started-at="2022-06-27T06:58:42Z" depends-on-methods="com.webdriveruniversity.testcases.Scrolling_Page_Test.Test_Case_038" finished-at="2022-06-27T06:58:43Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Test Case 042: User able to scroll to dont forget to scroll me button]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Test_Case_042 -->
-        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Browser_Close" is-config="true" duration-ms="1221" started-at="2022-06-27T06:58:43Z" finished-at="2022-06-27T06:58:44Z">
+        </test-method> <!-- Test_Case_029 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Browser_Close" is-config="true" duration-ms="959" started-at="2022-07-04T09:12:40Z" finished-at="2022-07-04T09:12:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Close -->
-      </class> <!-- com.webdriveruniversity.testcases.Scrolling_Page_Test -->
+      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
       <class name="com.webdriveruniversity.testcases.DCR_Page_Test">
-        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Browser_Launch" is-config="true" duration-ms="5313" started-at="2022-06-27T06:57:42Z" finished-at="2022-06-27T06:57:48Z">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Browser_Launch" is-config="true" duration-ms="5291" started-at="2022-07-04T09:12:12Z" finished-at="2022-07-04T09:12:18Z">
           <params>
             <param index="0">
               <value>
@@ -423,63 +364,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Launch -->
-        <test-method status="PASS" signature="Test_Case_019()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_019" duration-ms="1615" started-at="2022-06-27T06:57:48Z" finished-at="2022-06-27T06:57:49Z">
+        <test-method status="PASS" signature="Test_Case_019()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_019" duration-ms="1051" started-at="2022-07-04T09:12:18Z" finished-at="2022-07-04T09:12:19Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 019 : On clicking DCR page link redirecting to DCR Page : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_019 -->
-        <test-method status="PASS" signature="Test_Case_020()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_020" duration-ms="1863" started-at="2022-06-27T06:57:49Z" finished-at="2022-06-27T06:57:51Z">
+        <test-method status="PASS" signature="Test_Case_020()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_020" duration-ms="1777" started-at="2022-07-04T09:12:19Z" finished-at="2022-07-04T09:12:21Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 020 : DropDown one is working according to user expectations : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_020 -->
-        <test-method status="PASS" signature="Test_Case_021()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_021" duration-ms="1955" started-at="2022-06-27T06:57:51Z" finished-at="2022-06-27T06:57:53Z">
+        <test-method status="PASS" signature="Test_Case_021()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_021" duration-ms="1832" started-at="2022-07-04T09:12:21Z" finished-at="2022-07-04T09:12:22Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 021 : DropDown two is working according to user expectations : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_021 -->
-        <test-method status="PASS" signature="Test_Case_022()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_022" duration-ms="1898" started-at="2022-06-27T06:57:53Z" finished-at="2022-06-27T06:57:55Z">
+        <test-method status="PASS" signature="Test_Case_022()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_022" duration-ms="1706" started-at="2022-07-04T09:12:22Z" finished-at="2022-07-04T09:12:24Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 022 : DropDown three is working according to user expectations : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_022 -->
-        <test-method status="PASS" signature="Test_Case_023()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_023" duration-ms="278" started-at="2022-06-27T06:57:55Z" finished-at="2022-06-27T06:57:55Z">
+        <test-method status="PASS" signature="Test_Case_023()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_023" duration-ms="186" started-at="2022-07-04T09:12:24Z" finished-at="2022-07-04T09:12:24Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 023 : User able to select first check Box : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_023 -->
-        <test-method status="PASS" signature="Test_Case_024()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_024" duration-ms="173" started-at="2022-06-27T06:57:55Z" finished-at="2022-06-27T06:57:56Z">
+        <test-method status="PASS" signature="Test_Case_024()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_024" duration-ms="123" started-at="2022-07-04T09:12:24Z" finished-at="2022-07-04T09:12:24Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 024 : User able to select second check Box : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_024 -->
-        <test-method status="PASS" signature="Test_Case_025()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_025" duration-ms="181" started-at="2022-06-27T06:57:56Z" finished-at="2022-06-27T06:57:56Z">
+        <test-method status="PASS" signature="Test_Case_025()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_025" duration-ms="125" started-at="2022-07-04T09:12:24Z" finished-at="2022-07-04T09:12:25Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 025 : User able to unselect third check Box : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_025 -->
-        <test-method status="PASS" signature="Test_Case_026()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_026" duration-ms="174" started-at="2022-06-27T06:57:56Z" finished-at="2022-06-27T06:57:56Z">
+        <test-method status="PASS" signature="Test_Case_026()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_026" duration-ms="126" started-at="2022-07-04T09:12:25Z" finished-at="2022-07-04T09:12:25Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 026 : User able to select second check Box : true]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_026 -->
-        <test-method status="PASS" signature="Test_Case_027()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_027" duration-ms="1187" started-at="2022-06-27T06:57:56Z" finished-at="2022-06-27T06:57:57Z">
+        <test-method status="PASS" signature="Test_Case_027()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Test_Case_027" duration-ms="722" started-at="2022-07-04T09:12:25Z" finished-at="2022-07-04T09:12:25Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 027 : Radio Button 1 is Working as Expected : true]]>
@@ -498,13 +439,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_027 -->
-        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Browser_Close" is-config="true" duration-ms="1448" started-at="2022-06-27T06:57:57Z" finished-at="2022-06-27T06:57:59Z">
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@5622fdf]" name="Browser_Close" is-config="true" duration-ms="1157" started-at="2022-07-04T09:12:25Z" finished-at="2022-07-04T09:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Close -->
       </class> <!-- com.webdriveruniversity.testcases.DCR_Page_Test -->
-      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
-        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Browser_Launch" is-config="true" duration-ms="6061" started-at="2022-06-27T06:57:59Z" finished-at="2022-06-27T06:58:05Z">
+      <class name="com.webdriveruniversity.testcases.Scrolling_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Browser_Launch" is-config="true" duration-ms="5537" started-at="2022-07-04T09:12:51Z" finished-at="2022-07-04T09:12:57Z">
           <params>
             <param index="0">
               <value>
@@ -515,27 +456,48 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Launch -->
-        <test-method status="PASS" signature="Test_Case_028()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Test_Case_028" duration-ms="1389" started-at="2022-06-27T06:58:05Z" finished-at="2022-06-27T06:58:06Z">
+        <test-method status="PASS" signature="Test_Case_038()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_038" duration-ms="996" started-at="2022-07-04T09:12:57Z" finished-at="2022-07-04T09:12:58Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Case 028 : On Clicking Ajax loader page link, link is redirecting to Ajax Loader Page]]>
+              <![CDATA[Test Case 038: On clicking scroll around button, link is redirecting to scrolling page]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Case_028 -->
-        <test-method status="PASS" signature="Test_Case_029()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Test_Case_029" duration-ms="7415" started-at="2022-06-27T06:58:06Z" finished-at="2022-06-27T06:58:13Z">
+        </test-method> <!-- Test_Case_038 -->
+        <test-method status="PASS" signature="Test_Case_039()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_039" duration-ms="211" started-at="2022-07-04T09:12:58Z" finished-at="2022-07-04T09:12:58Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Case 029 : On Clicking Click button Modal Dialog is Displayed with expected text]]>
+              <![CDATA[Test Case 039: User able to scroll to scroll me first element]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Test_Case_029 -->
-        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@4883b407]" name="Browser_Close" is-config="true" duration-ms="1920" started-at="2022-06-27T06:58:13Z" finished-at="2022-06-27T06:58:15Z">
+        </test-method> <!-- Test_Case_039 -->
+        <test-method status="PASS" signature="Test_Case_040()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_040" duration-ms="213" started-at="2022-07-04T09:12:58Z" finished-at="2022-07-04T09:12:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 040: User able to scroll entries1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_040 -->
+        <test-method status="PASS" signature="Test_Case_041()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_041" duration-ms="209" started-at="2022-07-04T09:12:58Z" finished-at="2022-07-04T09:12:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 041: User able to scroll entries2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_041 -->
+        <test-method status="PASS" signature="Test_Case_042()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Test_Case_042" duration-ms="1279" started-at="2022-07-04T09:12:59Z" depends-on-methods="com.webdriveruniversity.testcases.Scrolling_Page_Test.Test_Case_038" finished-at="2022-07-04T09:13:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 042: User able to scroll to dont forget to scroll me button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_042 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@39c0f4a]" name="Browser_Close" is-config="true" duration-ms="979" started-at="2022-07-04T09:13:00Z" finished-at="2022-07-04T09:13:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Close -->
-      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
+      </class> <!-- com.webdriveruniversity.testcases.Scrolling_Page_Test -->
       <class name="com.webdriveruniversity.testcases.Actions_Page_Test">
-        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Browser_Launch" is-config="true" duration-ms="5071" started-at="2022-06-27T06:58:15Z" finished-at="2022-06-27T06:58:20Z">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Browser_Launch" is-config="true" duration-ms="5295" started-at="2022-07-04T09:12:41Z" finished-at="2022-07-04T09:12:46Z">
           <params>
             <param index="0">
               <value>
@@ -546,121 +508,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Launch -->
-        <test-method status="PASS" signature="Test_Case_030()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_030" duration-ms="2324" started-at="2022-06-27T06:58:20Z" finished-at="2022-06-27T06:58:23Z">
+        <test-method status="PASS" signature="Test_Case_030()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_030" duration-ms="1601" started-at="2022-07-04T09:12:46Z" finished-at="2022-07-04T09:12:48Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 030 : On Clicking Actions page link, link is redirecting to Actions page]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_030 -->
-        <test-method status="PASS" signature="Test_Case_031()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_031" duration-ms="473" started-at="2022-06-27T06:58:23Z" finished-at="2022-06-27T06:58:23Z">
+        <test-method status="PASS" signature="Test_Case_031()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_031" duration-ms="423" started-at="2022-07-04T09:12:48Z" finished-at="2022-07-04T09:12:48Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 031 : Drag and Drop is Working as Expected]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_031 -->
-        <test-method status="PASS" signature="Test_Case_032()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_032" duration-ms="236" started-at="2022-06-27T06:58:23Z" finished-at="2022-06-27T06:58:23Z">
+        <test-method status="PASS" signature="Test_Case_032()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_032" duration-ms="259" started-at="2022-07-04T09:12:48Z" finished-at="2022-07-04T09:12:49Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 032 : Double click working as expected]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_032 -->
-        <test-method status="PASS" signature="Test_Case_033()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_033" duration-ms="383" started-at="2022-06-27T06:58:23Z" finished-at="2022-06-27T06:58:24Z">
+        <test-method status="PASS" signature="Test_Case_033()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_033" duration-ms="379" started-at="2022-07-04T09:12:49Z" finished-at="2022-07-04T09:12:49Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 033 : Mouse Action & Link clicked successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_033 -->
-        <test-method status="FAIL" signature="Test_Case_034()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_034" duration-ms="396" started-at="2022-06-27T06:58:24Z" finished-at="2022-06-27T06:58:24Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable: https://webdriveruniversity.com/Actions/index.html# has no size and location
-  (Session info: chrome=102.0.5005.115)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sakka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 270747aa5362bba72e6fe2f112f79919]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable: https://webdriveruniversity.com/Actions/index.html# has no size and location
-  (Session info: chrome=102.0.5005.115)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NALDS22', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\sakka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 270747aa5362bba72e6fe2f112f79919
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-at com.webdriveruniversity.pageobjects.Actions_Page.Click_Hover_Me_Second_Link1(Actions_Page.java:101)
-at com.webdriveruniversity.testcases.Actions_Page_Test.Test_Case_034(Actions_Page_Test.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method status="PASS" signature="Test_Case_034()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_034" duration-ms="358" started-at="2022-07-04T09:12:49Z" finished-at="2022-07-04T09:12:49Z">
           <reporter-output>
+            <line>
+              <![CDATA[Test Case 034 : Mouse Action & Link clicked successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Test_Case_034 -->
-        <test-method status="PASS" signature="Test_Case_035()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_035" duration-ms="375" started-at="2022-06-27T06:58:24Z" finished-at="2022-06-27T06:58:25Z">
+        <test-method status="PASS" signature="Test_Case_035()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_035" duration-ms="391" started-at="2022-07-04T09:12:49Z" finished-at="2022-07-04T09:12:50Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 035 : Mouse Action & Link clicked successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_035 -->
-        <test-method status="PASS" signature="Test_Case_036()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_036" duration-ms="382" started-at="2022-06-27T06:58:25Z" finished-at="2022-06-27T06:58:25Z">
+        <test-method status="PASS" signature="Test_Case_036()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_036" duration-ms="335" started-at="2022-07-04T09:12:50Z" finished-at="2022-07-04T09:12:50Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 036 : Mouse Action & Link clicked successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_036 -->
-        <test-method status="PASS" signature="Test_Case_037()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_037" duration-ms="579" started-at="2022-06-27T06:58:25Z" finished-at="2022-06-27T06:58:26Z">
+        <test-method status="PASS" signature="Test_Case_037()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Test_Case_037" duration-ms="245" started-at="2022-07-04T09:12:50Z" finished-at="2022-07-04T09:12:50Z">
           <reporter-output>
             <line>
               <![CDATA[Test Case 037 : Click & Hold Action wokring as expected]]>
             </line>
           </reporter-output>
         </test-method> <!-- Test_Case_037 -->
-        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Browser_Close" is-config="true" duration-ms="3300" started-at="2022-06-27T06:58:26Z" finished-at="2022-06-27T06:58:29Z">
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@7d9d1a19]" name="Browser_Close" is-config="true" duration-ms="1059" started-at="2022-07-04T09:12:50Z" finished-at="2022-07-04T09:12:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser_Close -->
