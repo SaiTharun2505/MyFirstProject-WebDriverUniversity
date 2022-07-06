@@ -1,0 +1,188 @@
+Apache POI:--->
+	
+		An opensource library to read,write,designing at
+		Microsoft documents..
+
+Download Apache POI:-->
+
+	  URL:--->  https://archive.apache.org/dist/poi/release/bin/
+	  			Download  latest  version --> poi-bin-5.0.0-20210120.zip   
+	  			Download zip format file
+	  			unzip file to project libraries
+	  			configure all executable jar files to java-selenium-project.
+	  			
+	
+	  	Note:--> POI supports each document to follow idependant classes.
+	  	
+	  			=> Below classes support Mircosoft Excel 
+	  			HSSF-Workbook    [97-2003] -----> .xls
+	  			XSSF-Workbook    [2007 above]  ----> .xlsx
+	  				  						
+How to prepare test data file:-->
+
+Step1:--> Create TestData folder
+Step2:--> Create Inputdata workbook. 
+Step3:--> Open Workbook and prepare testdata at rows and cells
+Step4:--> Save workbook before use it.
+===================================================
+DataDriven Framework:-->
+		DataDriven framework separate test data from test scripts
+		and allow testdata to carry in different spread sheets
+		like [Excel, PropertyFiles, Notepad, PDF , XML, CsvFiles,Json --etc]
+		
+		Advantages:-->
+		=> Any non technical user can create or modify data
+		=> Avoid code duplication
+		=> Allow Multiple set of InputData data to carry
+		=> Optimize Script into shot lines
+
+============================================================
+public class Read_Differnet_Cell_Types {
+
+	public static void main(String[] args) throws IOException {
+		
+
+		FileInputStream fi = null;
+		try {
+			//Target File location
+			fi=new FileInputStream("TestData\\InputData.xlsx");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		
+		if(fi!=null)
+		{
+			//Get Workbook
+			 XSSFWorkbook book=new XSSFWorkbook(fi);
+			 //Get Sheet using above workbook
+			 XSSFSheet sht=book.getSheet("Sheet6");
+			 
+			 //Getting last cell number where data exist
+			 int Lrnum=sht.getLastRowNum();
+			 
+			 //using forloop read all cell data from first  row
+			 for (int i = 1; i < Lrnum; i++) 
+			 {
+				 XSSFCell EachRowCell=sht.getRow(i).getCell(0);
+				 
+				 String UID = null;
+				 if(EachRowCell.getCellType()==CellType.STRING)
+				 {
+					 UID=EachRowCell.getStringCellValue();
+				 }
+				 else if(EachRowCell.getCellType()==CellType.NUMERIC)
+				 {
+					 double dble=EachRowCell.getNumericCellValue();
+					 UID=NumberToTextConverter.toText(dble);
+				 }
+				 
+				 System.out.println(UID);
+				  
+			 }
+			 
+			 
+		}
+==================================================================================
+public class Read_NumericCellData 
+{
+
+	public static void main(String[] args) throws Exception 
+	{
+		
+		//Target file location
+		FileInputStream fi=new FileInputStream("TestData\\InputData.xlsx");
+		System.out.println("File located");
+		
+		//Get Exising workbook 
+		XSSFWorkbook book=new XSSFWorkbook(fi);
+		
+		//Target sheet using book reference
+		XSSFSheet sht=book.getSheet("Sheet2");
+		
+		
+		double value_in_dble_frmt=sht.getRow(1).getCell(1).getNumericCellValue();
+		System.out.println(value_in_dble_frmt);
+		
+		//Autoboxing [Data wrapping]
+		Double dble=new Double(value_in_dble_frmt);
+		System.out.println(dble.intValue());
+		
+		
+		//Get product price
+		double price_in_dble=sht.getRow(1).getCell(2).getNumericCellValue();
+		System.out.println(price_in_dble);
+		
+		//Get Mobile number
+		double mobile_in_dble_frmt=sht.getRow(1).getCell(5).getNumericCellValue();
+		System.out.println(mobile_in_dble_frmt);
+		
+		//Converting numeric value to stirng
+		String Mobilenumber=NumberToTextConverter.toText(mobile_in_dble_frmt);
+		System.out.println(Mobilenumber);	
+	}
+
+}
+====================================================================
+public class Read_boolean_And_Date_cell_Values {
+
+	public static void main(String[] args) throws IOException {
+		
+		
+		//Target file location
+		FileInputStream fi=new FileInputStream("TestData\\InputData.xlsx");
+		System.out.println("File located");
+		
+		//Get Exising workbook 
+		XSSFWorkbook book=new XSSFWorkbook(fi);
+		
+		//Target sheet using book reference
+		XSSFSheet sht=book.getSheet("Sheet2");
+		
+		
+		//Read boolean cell value
+		boolean status=sht.getRow(1).getCell(3).getBooleanCellValue();
+		System.out.println(status);
+		
+		//Read date cell value
+		Date date=sht.getRow(1).getCell(4).getDateCellValue();
+		
+		//Create simple date format
+		SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-YYYY");
+		System.out.println(sdf.format(date));
+	}
+
+}
+=====================================================================
+public class Write_Data_into_Excel 
+{
+	
+	public static void main(String args[]) throws Exception
+	{
+		//Target file location
+		FileInputStream fi=new FileInputStream("TestData\\InputData.xlsx");
+		System.out.println("File located");
+		
+		//Get Workbook Access
+		XSSFWorkbook book=new XSSFWorkbook(fi);
+		System.out.println("Workbook is accessed");
+		
+		//Read Sheet Using above workbook
+		XSSFSheet sht=book.getSheetAt(0);
+		
+
+		//Update Existing Cell Data
+		sht.getRow(1).getCell(0).setCellValue("Chrome");
+		
+		//Create New Cell in Existing row and Set Cell data
+		sht.getRow(1).createCell(4).setCellValue(new Date().toString());
+		
+		//Create New Row and New Cell then set cell data
+		sht.createRow(2).createCell(0).setCellValue("sunilredy@mindqsystems.com");
+		
+		
+		//Cretate New Workbook
+		FileOutputStream fo=new FileOutputStream("TestData\\OP.xlsx");
+		book.write(fo);   //Write all Data to new file
+		book.close();     //Save and Close File	
+	}
+}

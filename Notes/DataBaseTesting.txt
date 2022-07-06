@@ -1,0 +1,278 @@
+DataBase Testing :
+
+DataBase : DataBase is a storage area, where data can be stored
+
+DataBase testing is classified into two parts
+	1. White Box Testing (Structural)
+	2. Black Box Testing (Architectural)
+
+1. White Box Testing : Schema testing is white box testing, in which we can test 
+	1.Table 
+	2. Table Columns
+	3. Views
+	4. Stored Procedures
+	5. Functions
+	6. Triggers
+
+2. Black Box Testing : Funtion and non functionality testing comes under black box testing, in which we can test
+	
+	1. Functional Testing :
+			1. DML Operations w.r.t GUI Application
+			2. Data Mapping
+			3. Data Integrity & Keys
+	2. Non-Functional Testing :
+			1. Performance testing - Load, Stress
+			2. Security testing
+
+Schema testing on table : 
+	
+	Test Cases :
+		* Check table presence in database schema - #show tables
+		* Check table name conventions - #show tables
+		* Check number of columns in a table - #SELECT count(*) as numberofcolumns from information_schema.columns where table_name='customer'
+		* Check column names in a table - #select column_name from information_schema.columns where table_name='customers'
+		* Check data type of columns in table - #select column_name, data_type from information_schema.columns where table_name='customers'
+		* Check size of the columns in a table - #select column_name, column_type from information_schema.columns where table_name='customers'
+		* Check nulls field in a table - #select column_name, is_nullable from information_schema.columns where table_name='customers'
+`		* check column keys in a table - #select column_name, column key  from information_schema.columns where table_name='customers'
+
+Stored Procedures testing : 
+
+	What is store procedure?
+		* A stored procedure is block of SQL statements.
+		* We can save stored procedures and can be reuse multiple times.	
+		* We can also pass parameters to a stored procedure.
+		
+	Advantages : 
+		* Reduce network traffic
+			stored procedures help reduce the network traffic between applications and mysql server. Because instead of sending multiple lengthy 
+			SQL statements, applications have to send only the name and parameters of stored procedures.
+		* Centralize business logic in the database
+			We can use the stored procedures to implement business logic that is reusable by multiple applications. The stored procedures help
+			reduce the effort of duplicating the same logic in many applications and make your database more consistent.
+		* Make database more secure
+			The database administrator can grant approximate privileges to applications that only access specific stored procedures without giving any
+			privileges on the underlying tables.
+
+Creating store procedure : 
+
+	delimiter //
+	create procedure procedurename()
+	begin
+		statments want to be executed 
+	end //
+	delimiter ;
+
+Calling stored procedure :
+
+	call procedurename();
+
+Creating single paramter store procedure :
+
+	delimeter //
+	create procedure procedurename(in name datatype())
+	begin
+		statments want to be executed
+	end //
+	delimiter ;
+
+Calling paramterized stored procedure : 
+
+	call procedurename(value);
+
+Creating store procedure with input and output :
+
+	delimiter //
+	create procedure procedurename(in i1name datatype, out o1name datatype, out o2name datatype)
+	begin 
+		select count(*) into o1name from tablename where columnname=i1name and columnname=value
+		select count(*) into o1name from tablename where columnname=i1name and columnname=value
+	end //
+	delimiter ;
+
+Calling input and output stored procedures :
+
+	call procedurename(value, @o1name, @o2name)
+	select @o1name,@o2name;
+
+creating store procedure with cases :
+
+	delimiter //
+	create procedure procedurename(in i1name datatype, out o1name datatype)
+	begin
+		declare somename datatype;
+		select columnname into somename from tablename where columnname=i1name;
+		case somename
+			when 'value' then
+				set o1name='expected output';
+			when 'value' then
+				set 01name='expected output';
+			else
+				set o1name='expected output';
+		end case
+	end //
+	delimiter ;
+
+exception hanlding in stor procedures :
+
+ 	delimiter //
+	create procedure procedurename(in insuplierif int, in inproductid int)
+	begin
+	----exit if duplicate key occurs
+	declare exit handler for 1062 select 'duplicate keys error encountered' message;
+	declare exit handler for sqlexception select 'sqlexception encountered' message;
+	declare exit handler for sqlstate '23000' select 'sqlstate 23000' errorcode;
+
+	---insert a new row into the supplierproduct
+	insert into supplierproducts(supplierid,productid) values(insuplierid, inproductid);
+
+	---return the product supplied by the supplier id
+	select count(*) from supplierproducts where suplierid=insuplierid;
+	end //
+	deleimiter ;
+
+Common test scenarios for stored procedures :
+
+	1. Check stored procedure exist in database
+	2. Check stored procedure with valid input data
+	3. Check stored procedure handle exception when you pass invalid input data
+	4. Check stored procedure display results as expected
+	5. Check stored procedure inserting data into proper table/s
+	6. Check stored procedure updating data into proper table/s
+	7. Check stored procedure deleting data from proper table/s
+	8. Check calling stored procedure from another stored procedure
+
+Document for stored procedures
+
+	1. Stored Procedure name
+	2. Description
+	3. input parameters
+	4. output parameters  
+
+To check stored procedures in database :
+	
+	#SHOW PROCEDURE STATUS WHERE DB='DATABASENAME';
+			OR
+	#SHOW PROCEDURE STATUS WHERE NAME='PROCEDURENAME';
+
+JDBC connection :
+
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb?verifyServerCertificate=false&useSSL=true","root","root");
+	
+	Statement stmt=con.createStatement();
+	
+	ResultSet rs=stmt.execute("Query"); // execute command is used for DML commands
+	
+	ResultSet rs=stmt.executeQuery("Query"); // execute command is used for DQL commands
+	
+	System.out.print(rs.getInt(1)+", ");
+	
+	System.out.print( rs.getString(2)+", ");
+
+	CallableStatement Cstmt=con.preparecall("call query"); // to call the stored procedures
+
+	Cstmt.setString(1, "Singapore"); //to set input parameter
+
+	Cstmt.registerOutParameter(2, types.INTEGER); //output parameters
+
+	Cstmt.executeQuery();
+
+	int variablename1=Cstmt.getInt(2);
+
+	con.close // to close the connection with database 
+
+
+Logic to compare to result sets :
+
+	public boolean compareResultSets(ResultSet resultset1, ResultSet resultSet2) throws SQLException
+	{
+		while (resultset1.next())
+			{
+				resultset2.next();
+				int count = resultset1.getMetaData().getColumnCount();
+				for (int i = 1; i <- count; i++)
+				{
+					if(!StringUtils.equals(resultSet1.getString(i), resultSet2.getString(i)))  //to use Stringutils add dependency common apache lang3
+					{
+						return false;
+					}
+				}
+			}
+			return true;
+	}
+
+Syntax to follow while calling stored procedures in jdbc :
+
+	{ call procedure_name() }       Accept no parameter and return no value
+	{ call procedure_name(?,?) }       Accept two parameter and return no value
+	{ ?= call procedure_name() }       Accept no parameter and return value
+	{ ?=call procedure_name(?) }       Accept one parameter and return value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

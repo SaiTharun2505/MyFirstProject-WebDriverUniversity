@@ -1,0 +1,74 @@
+Property Files:-->
+	Property files also called as repository files.
+	In java programming property files store information
+	using keyname and value.
+	
+				key=value
+				
+	Note:--> Property files are sub version of hashtables.
+	It store pair values using "key" and "value" format.
+	
+			=> property files only store single user data.
+			=> In other programing language property files
+					also known as dictionary objects...
+					===================================
+			
+create property file:-->
+	
+			=> Create file with .properties extension
+			=> Store data using key and value format.
+				
+					Email=mqdsnr@gmail.com
+					Mobile=9030248855
+==========================================>>
+Why Property files in Selenium:-->
+		=> Most of the time deverloper create
+			testdata under property files [Configurations, Login credentials,
+			 paths] and same data transfer to testing team. 
+			 Inorder to automate.
+
+=======================================================
+public class ReadDataFrom_PropertyFiles
+{
+
+	public static void main(String[] args) throws IOException
+	{
+		
+		//Target File location
+		String path="src\\framework\\PropertyFiles\\input.properties";
+		FileInputStream fi=new FileInputStream(path);
+		
+		//Create object for properties
+		Properties repository=new Properties();
+		repository.load(fi);
+		
+		//Read property value using property name
+		String UID=repository.getProperty("username.valid");
+		String PWD=repository.getProperty("password.valid");
+		
+		System.out.println(UID+"    "+PWD);
+	}
+}
+==========================================================================>
+public class Write_Data_Into_PropertyFiles {
+
+	public static void main(String[] args) throws IOException
+	{
+		
+		
+		//Create object for property files
+		Properties obj=new Properties();
+		
+		//Add Data to property files
+		obj.setProperty("Result1", "Testpass");
+		obj.setProperty("Result2", "Testpass");
+		obj.setProperty("Result3", "Testfail");
+		obj.setProperty("Result4", "Testpass");
+		
+		
+		//Create output stream file and store data to output file
+		FileOutputStream fo=new FileOutputStream("src\\framework\\PropertyFiles\\output.properties");
+		obj.store(fo, "login output is created");
+	}
+
+}

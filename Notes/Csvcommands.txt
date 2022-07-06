@@ -1,0 +1,91 @@
+ CSV files:-->
+ 
+  A CSV file stores tabular data (numbers and text) 
+  in plain text. 
+ 
+ In computing, a comma-separated values (CSV)
+ file is a delimited text file that uses a comma 
+ to separate values. 
+ 
+
+ Each line of the file is a data record. 
+ Each record consists of one or more fields, 
+ separated by commas. 
+ 
+ Advantages of CSV files:-->
+ 		=> We can read Database records to csv file with in plain text format
+ 		=> We can use flat file in any operating system.
+ 
+ =====================================================>>
+ How to create CSV file:-->
+ 
+ 	=> Prepare testdata in notepad file by separting
+ 			with comma delimeter.
+ 	=> and save with .csv extension.
+ 
+ ====================================================>>
+ Inorder to write and execute csv programms download Opencsv.jarfile
+ and configure to  java selenium_project.
+ 
+ 	URL:--> https://mvnrepository.com/artifact/com.opencsv/opencsv/3.3
+ 				 Download jar file
+ 				 Inorder to work with csv file add jar files to project..
+ ====================================================>>
+
+public class Read_Data_From_CsvFiles 
+{
+
+	public static void main(String[] args) throws IOException 
+	{
+		
+		//Target file location
+		FileReader fr=new FileReader("src\\framework\\CsvFiles\\InputData.csv");
+		System.out.println("File located");
+		
+		//Create object for csv reader
+		CSVReader reader=new CSVReader(fr);
+		
+		//Reading header values
+		String[] Header=reader.readNext();
+		System.out.println(Header[0]+"   "+Header[1]);
+		
+		
+		//Read First Record from Csv File
+		String[] line=reader.readNext();
+		System.out.println(line[0]+"    "+line[1]);
+		
+		
+		String rline[];
+		while((rline=reader.readNext())!=null)
+		{
+			System.out.println(rline[0]+"    "+rline[1]);
+		}	
+	}
+}
+
+===========================================================================>
+public class Write_Data_into_Csvfiles 
+{
+
+	public static void main(String[] args) throws Exception
+	{
+		
+		//Create file
+		String filepath="src\\framework\\DataDriven\\CsvFiles\\InputData.csv";
+		FileWriter fw=new FileWriter(filepath);
+		
+		//To write date into csv file create object for csvwriter
+		CSVWriter writer=new CSVWriter(fw);
+		
+		String header[]={"Username","Password"};
+		writer.writeNext(header);
+	
+		String Line1[]={"aakash","Hello1234"};
+		writer.writeNext(Line1);
+	
+		//save and close
+		writer.close();
+
+	}
+
+}

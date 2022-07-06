@@ -1,0 +1,19 @@
+Git Commands : 
+
+1. git init ==> Create an Empty git repository(Local repository)
+
+2. git remote add origin "github repository URL"
+
+3. git status ==> what are the files ready to commit in the git repository
+
+4. git add -A ==> Add all your files into staging area
+
+5. git config --global user.name "github username"
+
+6. git config --global user.email "github login mail"
+
+7. git commit -m "comment" ==> to commit files into the local repository
+
+8. git push -u origin master
+
+9. git pull origin master
