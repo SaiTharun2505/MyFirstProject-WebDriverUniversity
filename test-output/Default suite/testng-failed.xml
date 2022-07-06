@@ -3,17 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webdriveruniversity.testcases.Scrolling_Page_Test">
+      <class name="com.sql.First_Query">
         <methods>
-          <include name="Browser_Launch"/>
-          <include name="Test_Case_042"/>
-          <include name="Test_Case_041"/>
-          <include name="Test_Case_040"/>
-          <include name="Test_Case_039"/>
-          <include name="Browser_Close"/>
-          <include name="Test_Case_038"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="TC_Stored_Procedures"/>
         </methods>
-      </class> <!-- com.webdriveruniversity.testcases.Scrolling_Page_Test -->
+      </class> <!-- com.sql.First_Query -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
