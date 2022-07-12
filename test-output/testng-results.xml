@@ -1,31 +1,574 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="42" passed="42">
   <reporter-output>
     <line>
-      <![CDATA[Test Pass]]>
+      <![CDATA[Test case 1 : On Clicking Login Portal link redirecting to Login Page : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 2 : Login Successful using valid credentials : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 3 : Login unsuccessful using invalid credentials : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 4 : Login unsuccessful using invalid credentials : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 5 : Login unsuccessful using invalid credentials : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 6 : On clicking buttons links redirecting to buttons Page : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 7 : User Able to click the Webelement click : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 8 : User Able to click the Javascript click : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 9 : User Able to click the Action Move click : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 010 : On Clicking the To do list link redireccting to to do list page : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 011 : On Launching the page Add new to do field is Displayed : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 012 : On Clicking the plus button Add new to do field is Hidden if it is displayed earlier: true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 013 : On Clicking the plus button Add new to do field is Displayed if it is in Hidden state earlier : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 014 : On Clicking the Go To Portion class button, its status changed to completed : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 015 : On Clicking the Buy New Robes button, its status changed to completed : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 016 : On Clicking the practice magic button, its status changed to completed : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 017 : User Able to Delete to do list one by one : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 018 : User Able to add to do actions in To do list : Go to Gym]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 019 : On clicking DCR page link redirecting to DCR Page : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 020 : DropDown one is working according to user expectations : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 021 : DropDown two is working according to user expectations : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 022 : DropDown three is working according to user expectations : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 023 : User able to select first check Box : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 024 : User able to select second check Box : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 025 : User able to unselect third check Box : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 026 : User able to select second check Box : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 027 : Radio Button 1 is Working as Expected : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 027 : Radio Button 2 is Working as Expected : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 027 : Radio Button 3 is Working as Expected : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 027 : Radio Button 4 is Working as Expected : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 027 : Radio Button 5 is Working as Expected : true]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 028 : On Clicking Ajax loader page link, link is redirecting to Ajax Loader Page]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 029 : On Clicking Click button Modal Dialog is Displayed with expected text]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 030 : On Clicking Actions page link, link is redirecting to Actions page]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 031 : Drag and Drop is Working as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 032 : Double click working as expected]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 033 : Mouse Action & Link clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 034 : Mouse Action & Link clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 035 : Mouse Action & Link clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 036 : Mouse Action & Link clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 037 : Click & Hold Action wokring as expected]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 038: On clicking scroll around button, link is redirecting to scrolling page]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 039: User able to scroll to scroll me first element]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 040: User able to scroll entries1]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 041: User able to scroll entries2]]>
+    </line>
+    <line>
+      <![CDATA[Test Case 042: User able to scroll to dont forget to scroll me button]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="749" started-at="2022-07-06T12:50:21Z" finished-at="2022-07-06T12:50:21Z">
+  <suite name="MyFirstProject" duration-ms="116183" started-at="2022-07-09T08:50:00Z" finished-at="2022-07-09T08:51:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="749" started-at="2022-07-06T12:50:21Z" finished-at="2022-07-06T12:50:21Z">
-      <class name="com.sql.First_Query">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.sql.First_Query@1ffe63b9]" name="setup" is-config="true" duration-ms="401" started-at="2022-07-06T12:50:21Z" finished-at="2022-07-06T12:50:21Z">
+    <test name="MyFirstProject" duration-ms="116183" started-at="2022-07-09T08:50:00Z" finished-at="2022-07-09T08:51:57Z">
+      <class name="com.webdriveruniversity.testcases.Buttons_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@1794d431]" name="Browser_Launch" is-config="true" duration-ms="5747" started-at="2022-07-09T08:50:34Z" finished-at="2022-07-09T08:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC_Stored_Procedures()[pri:0, instance:com.sql.First_Query@1ffe63b9]" name="TC_Stored_Procedures" duration-ms="316" started-at="2022-07-06T12:50:21Z" finished-at="2022-07-06T12:50:21Z">
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="TestCase_006()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@1794d431]" name="TestCase_006" duration-ms="1382" started-at="2022-07-09T08:50:39Z" finished-at="2022-07-09T08:50:41Z">
           <reporter-output>
             <line>
-              <![CDATA[Test Pass]]>
+              <![CDATA[Test Case 6 : On clicking buttons links redirecting to buttons Page : true]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_Stored_Procedures -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sql.First_Query@1ffe63b9]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-07-06T12:50:21Z" finished-at="2022-07-06T12:50:21Z">
+        </test-method> <!-- TestCase_006 -->
+        <test-method status="PASS" signature="TestCase_007()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@1794d431]" name="TestCase_007" duration-ms="1010" started-at="2022-07-09T08:50:41Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-07-09T08:50:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 7 : User Able to click the Webelement click : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_007 -->
+        <test-method status="PASS" signature="TestCase_008()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@1794d431]" name="TestCase_008" duration-ms="864" started-at="2022-07-09T08:50:42Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-07-09T08:50:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 8 : User Able to click the Javascript click : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_008 -->
+        <test-method status="PASS" signature="TestCase_009()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@1794d431]" name="TestCase_009" duration-ms="3131" started-at="2022-07-09T08:50:43Z" depends-on-methods="com.webdriveruniversity.testcases.Buttons_Page_Test.TestCase_006" finished-at="2022-07-09T08:50:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 9 : User Able to click the Action Move click : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_009 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Buttons_Page_Test@1794d431]" name="Browser_Close" is-config="true" duration-ms="1308" started-at="2022-07-09T08:50:46Z" finished-at="2022-07-09T08:50:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sql.First_Query -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- com.webdriveruniversity.testcases.Buttons_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.Login_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@39c0f4a]" name="Browser_Launch" is-config="true" duration-ms="20400" started-at="2022-07-09T08:50:00Z" finished-at="2022-07-09T08:50:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="TestCase_001()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@39c0f4a]" name="TestCase_001" duration-ms="3032" started-at="2022-07-09T08:50:21Z" finished-at="2022-07-09T08:50:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case 1 : On Clicking Login Portal link redirecting to Login Page : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_001 -->
+        <test-method status="PASS" signature="TestCase_002()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@39c0f4a]" name="TestCase_002" duration-ms="6266" started-at="2022-07-09T08:50:24Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-09T08:50:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 2 : Login Successful using valid credentials : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_002 -->
+        <test-method status="PASS" signature="TestCase_003()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@39c0f4a]" name="TestCase_003" duration-ms="706" started-at="2022-07-09T08:50:30Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-09T08:50:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 3 : Login unsuccessful using invalid credentials : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_003 -->
+        <test-method status="PASS" signature="TestCase_004()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@39c0f4a]" name="TestCase_004" duration-ms="586" started-at="2022-07-09T08:50:31Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-09T08:50:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 4 : Login unsuccessful using invalid credentials : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_004 -->
+        <test-method status="PASS" signature="TestCase_005()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@39c0f4a]" name="TestCase_005" duration-ms="582" started-at="2022-07-09T08:50:31Z" depends-on-methods="com.webdriveruniversity.testcases.Login_Page_Test.TestCase_001" finished-at="2022-07-09T08:50:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 5 : Login unsuccessful using invalid credentials : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase_005 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Login_Page_Test@39c0f4a]" name="Browser_Close" is-config="true" duration-ms="1536" started-at="2022-07-09T08:50:32Z" finished-at="2022-07-09T08:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- com.webdriveruniversity.testcases.Login_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.To_do_List_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Browser_Launch" is-config="true" duration-ms="5455" started-at="2022-07-09T08:50:47Z" finished-at="2022-07-09T08:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="Test_Case_010()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_010" duration-ms="1140" started-at="2022-07-09T08:50:53Z" finished-at="2022-07-09T08:50:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 010 : On Clicking the To do list link redireccting to to do list page : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_010 -->
+        <test-method status="PASS" signature="Test_Case_011()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_011" duration-ms="129" started-at="2022-07-09T08:50:54Z" finished-at="2022-07-09T08:50:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 011 : On Launching the page Add new to do field is Displayed : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_011 -->
+        <test-method status="PASS" signature="Test_Case_012()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_012" duration-ms="798" started-at="2022-07-09T08:50:54Z" finished-at="2022-07-09T08:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 012 : On Clicking the plus button Add new to do field is Hidden if it is displayed earlier: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_012 -->
+        <test-method status="PASS" signature="Test_Case_013()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_013" duration-ms="189" started-at="2022-07-09T08:50:55Z" finished-at="2022-07-09T08:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 013 : On Clicking the plus button Add new to do field is Displayed if it is in Hidden state earlier : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_013 -->
+        <test-method status="PASS" signature="Test_Case_014()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_014" duration-ms="180" started-at="2022-07-09T08:50:55Z" finished-at="2022-07-09T08:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 014 : On Clicking the Go To Portion class button, its status changed to completed : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_014 -->
+        <test-method status="PASS" signature="Test_Case_015()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_015" duration-ms="157" started-at="2022-07-09T08:50:55Z" finished-at="2022-07-09T08:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 015 : On Clicking the Buy New Robes button, its status changed to completed : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_015 -->
+        <test-method status="PASS" signature="Test_Case_016()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_016" duration-ms="186" started-at="2022-07-09T08:50:55Z" finished-at="2022-07-09T08:50:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 016 : On Clicking the practice magic button, its status changed to completed : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_016 -->
+        <test-method status="PASS" signature="Test_Case_017()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_017" duration-ms="1868" started-at="2022-07-09T08:50:55Z" finished-at="2022-07-09T08:50:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 017 : User Able to Delete to do list one by one : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_017 -->
+        <test-method status="PASS" signature="Test_Case_018()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Test_Case_018" duration-ms="584" started-at="2022-07-09T08:50:57Z" finished-at="2022-07-09T08:50:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 018 : User Able to add to do actions in To do list : Go to Gym]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_018 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.To_do_List_Test@42e26948]" name="Browser_Close" is-config="true" duration-ms="1132" started-at="2022-07-09T08:50:58Z" finished-at="2022-07-09T08:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- com.webdriveruniversity.testcases.To_do_List_Test -->
+      <class name="com.webdriveruniversity.testcases.DCR_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Browser_Launch" is-config="true" duration-ms="5999" started-at="2022-07-09T08:50:59Z" finished-at="2022-07-09T08:51:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="Test_Case_019()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_019" duration-ms="1906" started-at="2022-07-09T08:51:05Z" finished-at="2022-07-09T08:51:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 019 : On clicking DCR page link redirecting to DCR Page : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_019 -->
+        <test-method status="PASS" signature="Test_Case_020()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_020" duration-ms="1850" started-at="2022-07-09T08:51:07Z" finished-at="2022-07-09T08:51:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 020 : DropDown one is working according to user expectations : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_020 -->
+        <test-method status="PASS" signature="Test_Case_021()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_021" duration-ms="1904" started-at="2022-07-09T08:51:09Z" finished-at="2022-07-09T08:51:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 021 : DropDown two is working according to user expectations : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_021 -->
+        <test-method status="PASS" signature="Test_Case_022()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_022" duration-ms="1903" started-at="2022-07-09T08:51:11Z" finished-at="2022-07-09T08:51:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 022 : DropDown three is working according to user expectations : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_022 -->
+        <test-method status="PASS" signature="Test_Case_023()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_023" duration-ms="211" started-at="2022-07-09T08:51:12Z" finished-at="2022-07-09T08:51:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 023 : User able to select first check Box : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_023 -->
+        <test-method status="PASS" signature="Test_Case_024()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_024" duration-ms="175" started-at="2022-07-09T08:51:13Z" finished-at="2022-07-09T08:51:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 024 : User able to select second check Box : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_024 -->
+        <test-method status="PASS" signature="Test_Case_025()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_025" duration-ms="174" started-at="2022-07-09T08:51:13Z" finished-at="2022-07-09T08:51:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 025 : User able to unselect third check Box : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_025 -->
+        <test-method status="PASS" signature="Test_Case_026()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_026" duration-ms="172" started-at="2022-07-09T08:51:13Z" finished-at="2022-07-09T08:51:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 026 : User able to select second check Box : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_026 -->
+        <test-method status="PASS" signature="Test_Case_027()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Test_Case_027" duration-ms="1083" started-at="2022-07-09T08:51:13Z" finished-at="2022-07-09T08:51:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 027 : Radio Button 1 is Working as Expected : true]]>
+            </line>
+            <line>
+              <![CDATA[Test Case 027 : Radio Button 2 is Working as Expected : true]]>
+            </line>
+            <line>
+              <![CDATA[Test Case 027 : Radio Button 3 is Working as Expected : true]]>
+            </line>
+            <line>
+              <![CDATA[Test Case 027 : Radio Button 4 is Working as Expected : true]]>
+            </line>
+            <line>
+              <![CDATA[Test Case 027 : Radio Button 5 is Working as Expected : true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_027 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.DCR_Page_Test@57baeedf]" name="Browser_Close" is-config="true" duration-ms="1171" started-at="2022-07-09T08:51:14Z" finished-at="2022-07-09T08:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- com.webdriveruniversity.testcases.DCR_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.Ajax_Loader_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@343f4d3d]" name="Browser_Launch" is-config="true" duration-ms="5665" started-at="2022-07-09T08:51:15Z" finished-at="2022-07-09T08:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="Test_Case_028()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@343f4d3d]" name="Test_Case_028" duration-ms="1212" started-at="2022-07-09T08:51:21Z" finished-at="2022-07-09T08:51:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 028 : On Clicking Ajax loader page link, link is redirecting to Ajax Loader Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_028 -->
+        <test-method status="PASS" signature="Test_Case_029()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@343f4d3d]" name="Test_Case_029" duration-ms="7409" started-at="2022-07-09T08:51:22Z" finished-at="2022-07-09T08:51:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 029 : On Clicking Click button Modal Dialog is Displayed with expected text]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_029 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Ajax_Loader_Page_Test@343f4d3d]" name="Browser_Close" is-config="true" duration-ms="1690" started-at="2022-07-09T08:51:30Z" finished-at="2022-07-09T08:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- com.webdriveruniversity.testcases.Ajax_Loader_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.Scrolling_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@5442a311]" name="Browser_Launch" is-config="true" duration-ms="6113" started-at="2022-07-09T08:51:44Z" finished-at="2022-07-09T08:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="Test_Case_038()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@5442a311]" name="Test_Case_038" duration-ms="3551" started-at="2022-07-09T08:51:50Z" finished-at="2022-07-09T08:51:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 038: On clicking scroll around button, link is redirecting to scrolling page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_038 -->
+        <test-method status="PASS" signature="Test_Case_039()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@5442a311]" name="Test_Case_039" duration-ms="218" started-at="2022-07-09T08:51:54Z" finished-at="2022-07-09T08:51:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 039: User able to scroll to scroll me first element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_039 -->
+        <test-method status="PASS" signature="Test_Case_040()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@5442a311]" name="Test_Case_040" duration-ms="188" started-at="2022-07-09T08:51:54Z" finished-at="2022-07-09T08:51:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 040: User able to scroll entries1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_040 -->
+        <test-method status="PASS" signature="Test_Case_041()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@5442a311]" name="Test_Case_041" duration-ms="188" started-at="2022-07-09T08:51:54Z" finished-at="2022-07-09T08:51:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 041: User able to scroll entries2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_041 -->
+        <test-method status="PASS" signature="Test_Case_042()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@5442a311]" name="Test_Case_042" duration-ms="1256" started-at="2022-07-09T08:51:54Z" depends-on-methods="com.webdriveruniversity.testcases.Scrolling_Page_Test.Test_Case_038" finished-at="2022-07-09T08:51:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 042: User able to scroll to dont forget to scroll me button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_042 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Scrolling_Page_Test@5442a311]" name="Browser_Close" is-config="true" duration-ms="943" started-at="2022-07-09T08:51:56Z" finished-at="2022-07-09T08:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- com.webdriveruniversity.testcases.Scrolling_Page_Test -->
+      <class name="com.webdriveruniversity.testcases.Actions_Page_Test">
+        <test-method status="PASS" signature="Browser_Launch(java.lang.String)[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Browser_Launch" is-config="true" duration-ms="7640" started-at="2022-07-09T08:51:31Z" finished-at="2022-07-09T08:51:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="Test_Case_030()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_030" duration-ms="1726" started-at="2022-07-09T08:51:39Z" finished-at="2022-07-09T08:51:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 030 : On Clicking Actions page link, link is redirecting to Actions page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_030 -->
+        <test-method status="PASS" signature="Test_Case_031()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_031" duration-ms="389" started-at="2022-07-09T08:51:41Z" finished-at="2022-07-09T08:51:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 031 : Drag and Drop is Working as Expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_031 -->
+        <test-method status="PASS" signature="Test_Case_032()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_032" duration-ms="229" started-at="2022-07-09T08:51:41Z" finished-at="2022-07-09T08:51:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 032 : Double click working as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_032 -->
+        <test-method status="PASS" signature="Test_Case_033()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_033" duration-ms="388" started-at="2022-07-09T08:51:41Z" finished-at="2022-07-09T08:51:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 033 : Mouse Action & Link clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_033 -->
+        <test-method status="PASS" signature="Test_Case_034()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_034" duration-ms="362" started-at="2022-07-09T08:51:42Z" finished-at="2022-07-09T08:51:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 034 : Mouse Action & Link clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_034 -->
+        <test-method status="PASS" signature="Test_Case_035()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_035" duration-ms="365" started-at="2022-07-09T08:51:42Z" finished-at="2022-07-09T08:51:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 035 : Mouse Action & Link clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_035 -->
+        <test-method status="PASS" signature="Test_Case_036()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_036" duration-ms="299" started-at="2022-07-09T08:51:43Z" finished-at="2022-07-09T08:51:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 036 : Mouse Action & Link clicked successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_036 -->
+        <test-method status="PASS" signature="Test_Case_037()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Test_Case_037" duration-ms="251" started-at="2022-07-09T08:51:43Z" finished-at="2022-07-09T08:51:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case 037 : Click & Hold Action wokring as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test_Case_037 -->
+        <test-method status="PASS" signature="Browser_Close()[pri:0, instance:com.webdriveruniversity.testcases.Actions_Page_Test@53b32d7]" name="Browser_Close" is-config="true" duration-ms="956" started-at="2022-07-09T08:51:43Z" finished-at="2022-07-09T08:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Close -->
+      </class> <!-- com.webdriveruniversity.testcases.Actions_Page_Test -->
+    </test> <!-- MyFirstProject -->
+  </suite> <!-- MyFirstProject -->
 </testng-results>
