@@ -50,7 +50,12 @@ public class First_Query
 			System.out.print( rs.getString(4)+", ");
 			System.out.print( rs.getInt(5)+", ");
 			System.out.print( rs.getString(6)+", ");
+
 			System.out.println();
+			System.out.println();
+			System.out.println();
+			System.out.println();
+			
 		}
 		
 	}
